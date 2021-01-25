@@ -9,6 +9,10 @@ module.exports = {
   },
   darkMode: 'class',
   theme: {
+    fontFamily: {
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Fraunces', 'serif']
+    },
     // colors: {
     //   transparent: 'transparent',
     //   current: 'currentColor',
@@ -26,6 +30,7 @@ module.exports = {
       }
     }
   },
+
   variants: {
     extend: {}
   },

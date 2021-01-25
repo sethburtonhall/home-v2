@@ -19,6 +19,7 @@ export default function Navigation() {
     <ul className="flex items-center">
       <Link href="code"><a className="p-6">Code</a></Link>
       <Link href="film"><a className="p-6">Film</a></Link>
+      <Link href="portfolio"><a className="p-6">Portfolio</a></Link>
       <button onClick={switchTheme}> switch theme</button>
     </ul>
   )
