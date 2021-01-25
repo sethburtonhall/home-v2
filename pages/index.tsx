@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Code/Film</title>
+        <title>Seth Hall: Code/Film</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
