@@ -19,7 +19,8 @@
     "**/*.ts",
     "**/*.tsx",
     "contexts/SideBarContext.js",
-    "contexts/ModeContext.js"
+    "contexts/ModeContext.js",
+    "pages/index.js"
   ],
   "exclude": ["node_modules"]
 }

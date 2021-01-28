@@ -19,18 +19,18 @@ export default function Home() {
 
   return (
     <>
-      <style JSX>
+      <style jsx>
         {`
           .bg-code-image {
-            width:100%;
-            height:100%;
-            position:absolute;
+            width: 100%;
+            height: 100%;
+            position: absolute;
             background: url('/bg4.jpg') no-repeat;
           }
           .bg-film-image {
-            width:100%;
-            height:100%;
-            position:absolute;
+            width: 100%;
+            height: 100%;
+            position: absolute;
             background: url('/bg6.jpg') no-repeat;
           }
         `}
