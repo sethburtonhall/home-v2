@@ -27,13 +27,13 @@ p {
   box-sizing: border-box;
 }
 
-.bg-code-image {
+/* .bg-code-image {
   @apply bg-code bg-purple-400 absolute w-full bg-cover bg-center h-full transition-opacity ease-in-out duration-500;
 }
 
 .bg-film-image {
   @apply bg-film absolute w-full bg-cover bg-center h-full transition-opacity ease-in-out duration-500;
-}
+} */
 
 .toolbox {
   @apply rounded;

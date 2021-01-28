@@ -41,10 +41,10 @@ module.exports = {
       screens: {
         '3xl': '1600px',
       },
-      backgroundImage: (theme) => ({
-        code: "url('/bg4.jpg')",
-        film: "url('/bg6.jpg')",
-      }),
+      // backgroundImage: (theme) => ({
+      //   code: "url('/bg4.jpg')",
+      //   film: "url('/bg6.jpg')",
+      // }),
     },
   },
 

@@ -1,6 +1,7 @@
 import { useEffect, useContext } from 'react'
 import { ModeContext } from '../contexts/ModeContext'
 import { SideBarContext } from '../contexts/SideBarContext'
+import Image from 'next/image'
 import Head from 'next/head'
 import Code from '../components/Code'
 import Film from '../components/Film'
@@ -18,6 +19,22 @@ export default function Home() {
 
   return (
     <>
+      <style JSX>
+        {`
+          .bg-code-image {
+            width:100%;
+            height:100%;
+            position:absolute;
+            background: url('/bg4.jpg') no-repeat;
+          }
+          .bg-film-image {
+            width:100%;
+            height:100%;
+            position:absolute;
+            background: url('/bg6.jpg') no-repeat;
+          }
+        `}
+      </style>
       <Head>
         <title>Seth Hall: Code/Film</title>
       </Head>
