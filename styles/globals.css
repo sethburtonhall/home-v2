@@ -6,8 +6,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
 }
 
 a {
@@ -15,6 +15,45 @@ a {
   text-decoration: none;
 }
 
+p {
+  @apply font-serif;
+}
+
+/* .main-link {
+  @apply bg-pink-500 px-2 hover:bg-pink-700 transition-colors ease-in-out;
+} */
+
 * {
   box-sizing: border-box;
+}
+
+.bg-code-image {
+  @apply bg-code bg-purple-400 absolute w-full bg-cover bg-center h-full transition-opacity ease-in-out duration-500;
+}
+
+.bg-film-image {
+  @apply bg-film absolute w-full bg-cover bg-center h-full transition-opacity ease-in-out duration-500;
+}
+
+.toolbox {
+  @apply rounded;
+}
+
+.social-svg {
+  @apply mr-6 text-white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-purple-900;
+  border-radius: 10px;
 }

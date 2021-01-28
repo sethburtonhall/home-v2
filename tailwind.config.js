@@ -1,38 +1,55 @@
-const colors = require('tailwindcss/colors');
+const colors = require('tailwindcss/colors')
 
 module.exports = {
+  important: true,
   darkMode: 'class',
   purge: ['./pages/**/*.tsx', './components/**/*.tsx'],
   future: {
     removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true
+    purgeLayersByDefault: true,
   },
-  darkMode: 'class',
   theme: {
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Fraunces', 'serif']
+      sans: ['Dosis', 'sans-serif'],
+      serif: ['Roboto Slab', 'serif'],
     },
-    // colors: {
-    //   transparent: 'transparent',
-    //   current: 'currentColor',
-    //   black: colors.black,
-    //   white: colors.white,
-    //   gray: colors.trueGray,
-    //   indigo: colors.indigo,
-    //   red: colors.rose,
-    //   yellow: colors.amber
-    // },
+    container: {
+      center: true,
+      screens: {
+        sm: '100%',
+        md: '100%',
+        lg: '1024px',
+        // xl: '1280px',
+      },
+    },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      black: colors.black,
+      white: colors.white,
+      gray: colors.coolGray,
+      cyan: colors.cyan,
+      pink: colors.pink,
+      blue: colors.blue,
+      yellow: colors.amber,
+      purple: colors.purple,
+      orange: colors.orange,
+      green: colors.emerald,
+    },
     // fill: theme => theme(colors),
     extend: {
       screens: {
-        '3xl': '1600px'
-      }
-    }
+        '3xl': '1600px',
+      },
+      backgroundImage: (theme) => ({
+        code: "url('/bg4.jpg')",
+        film: "url('/bg6.jpg')",
+      }),
+    },
   },
 
   variants: {
-    extend: {}
+    extend: {},
   },
-  plugins: []
-};
+  plugins: [require('tailwindcss-debug-screens')],
+}
