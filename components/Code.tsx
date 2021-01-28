@@ -2,11 +2,11 @@ import { useEffect, useContext } from 'react'
 import { SideBarContext } from '../contexts/SideBarContext'
 
 export default function Code() {
-  const [context, setContext] = useContext(SideBarContext)
-  console.log(context)
+  const [toggleContext, setToggleContext] = useContext(SideBarContext)
+  console.log(toggleContext)
 
   useEffect(() => {
-    setContext(false)
+    setToggleContext(false)
   }, [])
 
   return (
@@ -21,9 +21,9 @@ export default function Code() {
           <h2 className="text-4xl">Seth Hall : Web Developer</h2>
           <div
             className="text-lg font-bold text-blue-500 transition-colors ease-in-out cursor-pointer hover:text-blue-700"
-            onClick={() => setContext(!context)}
+            onClick={() => setToggleContext(!toggleContext)}
           >
-            {context === false && (
+            {toggleContext === false && (
               <svg
                 className="relative inline-block w-5 h-5 mr-1 cursor-pointer -top-0.5"
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ export default function Code() {
                 />
               </svg>
             )}
-            {context === true && (
+            {toggleContext === true && (
               <svg
                 className="relative inline-block w-5 h-5 mr-1 cursor-pointer -top-0.5"
                 xmlns="http://www.w3.org/2000/svg"
