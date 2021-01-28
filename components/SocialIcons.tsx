@@ -5,6 +5,7 @@ export default function SocialIcons() {
       <a
         href="https://github.com/sethburtonhall"
         target="_blank"
+        rel="noopener"
         className="social-svg"
       >
         <span className="sr-only">GitHub</span>
@@ -19,6 +20,7 @@ export default function SocialIcons() {
       <a
         href="https://twitter.com/sethburtonhall"
         target="_blank"
+        rel="noopener"
         className="social-svg"
       >
         <span className="sr-only">Twitter</span>
@@ -29,6 +31,7 @@ export default function SocialIcons() {
       <a
         href="https://www.instagram.com/sethburtonhall/"
         target="_blank"
+        rel="noopener"
         className="social-svg"
       >
         <span className="sr-only">Instagram</span>
@@ -60,6 +63,7 @@ export default function SocialIcons() {
       <a
         href="https://www.linkedin.com/in/sethburtonhall/"
         target="_blank"
+        rel="noopener"
         className="social-svg"
       >
         <span className="sr-only">LinkedIn</span>

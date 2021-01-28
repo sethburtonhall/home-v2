@@ -202,6 +202,7 @@ export default function Resume() {
             className="text-purple-600 hover:text-purple-700"
             href="https://artistrescue.org/"
             target="_blank"
+            rel="noopener"
           >
             Site
           </a>
@@ -209,6 +210,7 @@ export default function Resume() {
             className="text-purple-600 hover:text-purple-700"
             href="https://github.com/OurKettle/artist-rescue-trust"
             target="_blank"
+            rel="noopener"
           >
             Source
           </a>
@@ -223,6 +225,7 @@ export default function Resume() {
             className="text-purple-600 hover:text-purple-700"
             href="https://serverless-notes-sbh.netlify.app/"
             target="_blank"
+            rel="noopener"
           >
             Site
           </a>
@@ -230,6 +233,7 @@ export default function Resume() {
             className="text-purple-600 hover:text-purple-700"
             href="https://github.com/sethburtonhall/notes-client"
             target="_blank"
+            rel="noopener"
           >
             Source
           </a>
@@ -244,6 +248,7 @@ export default function Resume() {
             className="text-purple-600 hover:text-purple-700"
             href="https://davidkstanley.studio/"
             target="_blank"
+            rel="noopener"
           >
             Site
           </a>
@@ -251,6 +256,7 @@ export default function Resume() {
             className="text-purple-600 hover:text-purple-700"
             href="https://github.com/sethburtonhall/dks3.0"
             target="_blank"
+            rel="noopener"
           >
             Source
           </a>
@@ -265,6 +271,7 @@ export default function Resume() {
             className="text-purple-600 hover:text-purple-700"
             href="https://uchaguzi.or.ke/views/map"
             target="_blank"
+            rel="noopener"
           >
             App
           </a>
@@ -272,6 +279,7 @@ export default function Resume() {
             className="text-purple-600 hover:text-purple-700"
             href="https://github.com/ushahidi/platform-pattern-library"
             target="_blank"
+            rel="noopener"
           >
             Source
           </a>
@@ -286,6 +294,7 @@ export default function Resume() {
             className="text-purple-600 hover:text-purple-700"
             href="https://react-tmdb-sbh.netlify.com/"
             target="_blank"
+            rel="noopener"
           >
             App
           </a>
@@ -293,6 +302,7 @@ export default function Resume() {
             className="text-purple-600 hover:text-purple-700"
             href="https://github.com/sethburtonhall/react-movie"
             target="_blank"
+            rel="noopener"
           >
             Source
           </a>
@@ -307,6 +317,7 @@ export default function Resume() {
             className="text-purple-600 hover:text-purple-700"
             href="https://www.oldmotherhubbard.com/"
             target="_blank"
+            rel="noopener"
           >
             App
           </a>
@@ -314,6 +325,7 @@ export default function Resume() {
             className="text-purple-600 hover:text-purple-700"
             href="https://github.com/sethburtonhall/old-mother-hubbard"
             target="_blank"
+            rel="noopener"
           >
             Source
           </a>
@@ -326,6 +338,7 @@ export default function Resume() {
             className="text-purple-600 hover:text-purple-700"
             href="https://www.ushahidi.com/"
             target="_blank"
+            rel="noopener"
           >
             Site
           </a>
@@ -347,6 +360,7 @@ export default function Resume() {
             className="text-purple-600 hover:text-purple-700"
             href="https://protege.dev/"
             target="_blank"
+            rel="noopener"
           >
             Site
           </a>
@@ -354,6 +368,7 @@ export default function Resume() {
             className="text-purple-600 hover:text-purple-700"
             href="https://github.com/drewclem/protege"
             target="_blank"
+            rel="noopener"
           >
             Source
           </a>

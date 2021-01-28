@@ -5,6 +5,7 @@ export default function MadeWith() {
         <a
           href="https://github.com/sethburtonhall/home-v2"
           target="_blank"
+          rel="noopener"
           className="pt-1 mr-1 social-svg"
         >
           v2.0
@@ -15,6 +16,7 @@ export default function MadeWith() {
         <a
           href="https://nextjs.org/"
           target="_blank"
+          rel="noopener"
           className="px-2 pt-1 pb-1 bg-black rounded"
         >
           Next.js
@@ -23,6 +25,7 @@ export default function MadeWith() {
         <a
           href="https://tailwindcss.com/"
           target="_blank"
+          rel="noopener"
           className="px-2 pt-1 pb-1 ml-1 rounded bg-cyan-600"
         >
           TailwindCSS

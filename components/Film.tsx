@@ -12,6 +12,7 @@ export default function Film() {
           <a
             href="https://hallpictures.us/"
             target="_blank"
+            rel="noopener"
             className="text-lg font-bold text-pink-500 transition-colors ease-in-out cursor-pointer hover:text-pink-700"
           >
             <svg
