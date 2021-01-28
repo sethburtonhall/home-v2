@@ -123,7 +123,7 @@ export default function Resume() {
           </h2>
         </div>
 
-        <p className="font-serif text-base font-light ">
+        <div className="font-serif text-base font-light ">
           <ul className="pl-5 list-disc list-outside">
             <li className="pb-3">HTML/CSS/JS</li>
             <li className="pb-3">React Ecosystem</li>
@@ -148,7 +148,7 @@ export default function Resume() {
             <li className="pb-3">performance and accessibility</li>
             <li className="pb-3">terminal/command line</li>
           </ul>
-        </p>
+        </div>
       </div>
 
       {/* Soft Skills */}
@@ -160,7 +160,7 @@ export default function Resume() {
           </h2>
         </div>
 
-        <p className="font-serif text-base font-light ">
+        <div className="font-serif text-base font-light ">
           <ul className="pl-5 list-disc list-outside">
             <li className="pb-3">
               remote working - I am skilled in communicating across multiple
@@ -182,7 +182,7 @@ export default function Resume() {
               needed to see it through from start to finish
             </li>
           </ul>
-        </p>
+        </div>
       </div>
 
       {/* Projects */}
