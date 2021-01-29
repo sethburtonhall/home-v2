@@ -19,7 +19,7 @@ export default function Home() {
 
   return (
     <>
-      <style jsx>
+      {/* <style jsx>
         {`
           .bg-code-image {
             width: 100%;
@@ -34,19 +34,29 @@ export default function Home() {
             background: url('/bg6.jpg') no-repeat;
           }
         `}
-      </style>
+      </style> */}
       <Head>
         <title>Seth Hall: Code/Film</title>
       </Head>
       <div className="relative">
-        {/* background images */}
-        <div className={`bg-film-image`}></div>
-        <div
-          className={`bg-code-image ${context === 'film' ? 'opacity-0' : ''}`}
-        ></div>
-
+        {/* <Image
+          layout="fill"
+          className="object-cover object-center pointer-events-none"
+          src="/bg6.jpg"
+          alt="background image"
+        />
+        <Image
+          layout="fill"
+          className={`object-cover object-center pointer-events-none ${
+            context === 'film' ? 'opacity-0' : ''
+          }`}
+          src="/bg4.jpg"
+          alt="background image"
+        /> */}
         {/* main content */}
-        <div className="relative flex flex-col min-h-screen px-6 pt-6 md:container lg:px-0">
+        <div
+          className={`relative flex flex-col min-h-screen px-6 pt-6 md:container lg:px-0`}
+        >
           <header className="flex items-center justify-end w-full">
             {/* <h1
               className="font-sans text-5xl tracking-wide text-white cursor-pointer"
@@ -95,11 +105,7 @@ export default function Home() {
           </header>
 
           <main
-            className={`flex flex-col items-center justify-start flex-grow mt-8 md:mt-32 duration-300 ease-in-out ${
-              toggleContext === true
-                ? 'transform translate-x-96 lg:translate-x-0'
-                : 'transform translate-x-0'
-            }`}
+            className={`flex flex-col items-center justify-start flex-grow mt-8 md:mt-32`}
           >
             {context === 'code' ? <Code /> : <Film />}
           </main>
@@ -108,9 +114,8 @@ export default function Home() {
             <SocialIcons />
             <MadeWith />
           </footer>
-
-          <Resume />
         </div>
+        <Resume />
       </div>
     </>
   )
