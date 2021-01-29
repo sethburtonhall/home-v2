@@ -93,7 +93,7 @@ export default function Home() {
           </header>
 
           <main
-            className={`flex flex-col items-center justify-start flex-grow mt-8 md:mt-32`}
+            className={`flex flex-col items-center justify-start flex-grow md:mt-32`}
           >
             {context === 'code' ? (
               <motion.div

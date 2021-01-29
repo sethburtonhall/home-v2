@@ -1,7 +1,7 @@
 export default function Film() {
   return (
     <>
-      <div className="flex flex-col items-center pb-6 md:flex-row ">
+      <div className="flex flex-col pb-6 md:flex-row lg:items-center">
         <img
           src="/seth-film.jpg"
           alt="Seth Hall"
