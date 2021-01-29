@@ -20,11 +20,11 @@ export default function Home() {
   const backgroundVariants = {
     active: {
       background: '#4C1D95',
-      transition: { duration: 0.8 },
+      transition: { duration: 0.2 },
     },
     inactive: {
       background: '#111827',
-      transition: { duration: 0.8 },
+      transition: { duration: 0.2 },
     },
   }
 
@@ -39,7 +39,6 @@ export default function Home() {
         variants={backgroundVariants}
         animate={context === 'code' ? 'active' : 'inactive'}
       >
-
         {/* main content */}
         <div className="relative flex flex-col min-h-screen px-5 pt-5 md:container lg:px-0">
           <header className="flex items-center justify-end w-full">

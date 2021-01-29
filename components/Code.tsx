@@ -10,11 +10,11 @@ export default function Code() {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-start pb-6 md:flex-row">
+      <div className="flex flex-col justify-start pb-6 lg:items-center md:flex-row">
         <img
           src="/seth-code.jpg"
           alt="Seth Hall"
-          className="w-20 h-20 rounded-full"
+          className="w-20 h-20 rounded-full align-self-start"
           width={80}
           height={80}
         />
