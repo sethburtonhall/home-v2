@@ -1,10 +1,8 @@
-import Image from 'next/image'
-
 export default function Film() {
   return (
-    <div className="flex flex-col">
+    <>
       <div className="flex flex-col items-center pb-6 md:flex-row ">
-        <Image
+        <img
           src="/seth-film.jpg"
           alt="Seth Hall"
           className="w-20 h-20 rounded-full"
@@ -25,6 +23,8 @@ export default function Film() {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
+              width={20}
+              height={20}
             >
               <path
                 strokeLinecap="round"
@@ -44,6 +44,6 @@ export default function Film() {
         best to develop great stories and produce high-quality content while
         providing a safe and nurturing environment for film creatives.
       </p>
-    </div>
+    </>
   )
 }

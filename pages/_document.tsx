@@ -9,8 +9,12 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
+          <meta charSet="UTF-8" />
+          <meta name="description" content="Seth Hall Creative - Code:Film" />
+          <meta name="keywords" content="Web Development" />
+          <meta name="author" content="Seth Hall" />
           <link rel="icon" href="/favicon.ico" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link

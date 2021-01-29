@@ -1,15 +1,11 @@
-import { useEffect, useContext } from 'react'
+import { useContext } from 'react'
 import { SideBarContext } from '../contexts/SideBarContext'
 
 export default function Resume() {
   const [toggleContext, setToggleContext] = useContext(SideBarContext)
 
   return (
-    <aside
-      className={`fixed overflow-y-scroll h-screen p-6 pt-3 top-0 bg-gray-900 w-full lg:w-1/2 transition-all duration-300 ease-in-out ${
-        toggleContext === true ? 'left-0' : '-left-full'
-      }`}
-    >
+    <>
       <svg
         className="w-10 ml-auto cursor-pointer"
         xmlns="http://www.w3.org/2000/svg"
@@ -402,6 +398,6 @@ export default function Resume() {
           <p className="text-sm text-gray-500">Scrum Alliance</p>
         </div>
       </div>
-    </aside>
+    </>
   )
 }

@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
 }
 
 a {
@@ -19,28 +21,8 @@ p {
   @apply font-serif;
 }
 
-/* .main-link {
-  @apply bg-pink-500 px-2 hover:bg-pink-700 transition-colors ease-in-out;
-} */
-
-* {
-  box-sizing: border-box;
-}
-
-/* .bg-code-image {
-  @apply bg-code bg-purple-400 absolute w-full bg-cover bg-center h-full transition-opacity ease-in-out duration-500;
-}
-
-.bg-film-image {
-  @apply bg-film absolute w-full bg-cover bg-center h-full transition-opacity ease-in-out duration-500;
-} */
-
-.toolbox {
-  @apply rounded;
-}
-
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -50,6 +32,18 @@ p {
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-purple-900;
+  @apply bg-gradient-to-tr from-purple-700 to-pink-700;
   border-radius: 10px;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+.social-icons {
+  @apply text-white hover:text-pink-500 transition
 }

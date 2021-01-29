@@ -1,7 +1,7 @@
 import { useEffect, useContext } from 'react'
 import { ModeContext } from '../contexts/ModeContext'
 import { SideBarContext } from '../contexts/SideBarContext'
-import Image from 'next/image'
+import { motion } from 'framer-motion'
 import Head from 'next/head'
 import Code from '../components/Code'
 import Film from '../components/Film'
@@ -11,54 +11,35 @@ import Resume from '../components/Resume'
 
 export default function Home() {
   const [context, setContext] = useContext(ModeContext)
-  const [toggleContext, setToggleContext] = useContext(SideBarContext)
+  const [toggleContext] = useContext(SideBarContext)
 
   useEffect(() => {
     setContext('code')
   }, [])
 
+  const backgroundVariants = {
+    active: {
+      background: '#4C1D95',
+      transition: { duration: 0.8 },
+    },
+    inactive: {
+      background: '#111827',
+      transition: { duration: 0.8 },
+    },
+  }
+
   return (
     <>
-      {/* <style jsx>
-        {`
-          .bg-code-image {
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            background: url('/bg4.jpg') no-repeat;
-          }
-          .bg-film-image {
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            background: url('/bg6.jpg') no-repeat;
-          }
-        `}
-      </style> */}
       <Head>
         <title>Seth Hall: Code/Film</title>
       </Head>
-      <div
-        className={`relative bg-gradient-to-tr ${
-          context === 'code'
-            ? 'from-purple-700 to-pink-700'
-            : 'from-purple-700 to-blue-700'
-        }`}
+
+      <motion.div
+        className={`relative`}
+        variants={backgroundVariants}
+        animate={context === 'code' ? 'active' : 'inactive'}
       >
-        {/* <Image
-          layout="fill"
-          className="object-cover object-center pointer-events-none"
-          src="/bg6.jpg"
-          alt="background image"
-        />
-        <Image
-          layout="fill"
-          className={`object-cover object-center pointer-events-none ${
-            context === 'film' ? 'opacity-0' : ''
-          }`}
-          src="/bg4.jpg"
-          alt="background image"
-        /> */}
+
         {/* main content */}
         <div className="relative flex flex-col min-h-screen px-5 pt-5 md:container lg:px-0">
           <header className="flex items-center justify-end w-full">
@@ -98,6 +79,8 @@ export default function Home() {
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                   onClick={() => setContext('code')}
+                  width="100"
+                  height="40"
                 >
                   <path
                     strokeLinecap="round"
@@ -113,7 +96,19 @@ export default function Home() {
           <main
             className={`flex flex-col items-center justify-start flex-grow mt-8 md:mt-32`}
           >
-            {context === 'code' ? <Code /> : <Film />}
+            {context === 'code' ? (
+              <motion.div
+                className="flex flex-col this-is-code"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+              >
+                <Code />
+              </motion.div>
+            ) : (
+              <motion.div className="flex flex-col this-is-film">
+                <Film />
+              </motion.div>
+            )}
           </main>
 
           <footer className="flex flex-col items-center justify-between w-full py-6 md:flex-row">
@@ -121,8 +116,21 @@ export default function Home() {
             <MadeWith />
           </footer>
         </div>
-        <Resume />
-      </div>
+
+        {/* Resume */}
+        <motion.div
+          className="fixed top-0 w-full h-screen p-6 pt-3 overflow-y-scroll lg:w-1/2 bg-gradient-to-tr from-gray-800 to-gray-900"
+          initial={{ x: -1000 }}
+          animate={{
+            x: toggleContext ? 0 : -1000,
+          }}
+          transition={{
+            duration: 0.2,
+          }}
+        >
+          <Resume />
+        </motion.div>
+      </motion.div>
     </>
   )
 }

@@ -2,7 +2,7 @@ const colors = require('tailwindcss/colors')
 
 module.exports = {
   important: true,
-  darkMode: 'class',
+  // darkMode: 'class',
   purge: ['./pages/**/*.tsx', './components/**/*.tsx'],
   future: {
     removeDeprecatedGapUtilities: true,
@@ -27,7 +27,7 @@ module.exports = {
       current: 'currentColor',
       black: colors.black,
       white: colors.white,
-      gray: colors.coolGray,
+      gray: colors.blueGray,
       cyan: colors.cyan,
       pink: colors.pink,
       blue: colors.blue,

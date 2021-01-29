@@ -1,19 +1,17 @@
 import { useEffect, useContext } from 'react'
-import Image from 'next/image'
 import { SideBarContext } from '../contexts/SideBarContext'
 
 export default function Code() {
   const [toggleContext, setToggleContext] = useContext(SideBarContext)
-  console.log(toggleContext)
 
   useEffect(() => {
     setToggleContext(false)
   }, [])
 
   return (
-    <div className="flex flex-col">
+    <>
       <div className="flex flex-col items-center justify-start pb-6 md:flex-row">
-        <Image
+        <img
           src="/seth-code.jpg"
           alt="Seth Hall"
           className="w-20 h-20 rounded-full"
@@ -33,6 +31,8 @@ export default function Code() {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
+                width={20}
+                height={20}
               >
                 <path
                   strokeLinecap="round"
@@ -70,20 +70,19 @@ export default function Code() {
       </p>
 
       <h1 className="pb-6 text-lg">Current Stack:</h1>
-      <div className="grid grid-flow-col grid-cols-2 grid-rows-6 gap-3 mb-10 text-center md:grid-cols-3 md:grid-rows-4 lg:grid-cols-6 lg:grid-rows-2 md:mb-0">
-        <div className="bg-orange-600 toolbox">Html</div>
-        <div className="bg-blue-700 toolbox">CSS</div>
-        <div className="bg-yellow-400 toolbox">Javascript</div>
-        <div className="toolbox bg-cyan-400">React</div>
-        <div className="bg-black toolbox">Next.js</div>
-        <div className="toolbox bg-cyan-600">TailwindCSS</div>
-        <div className="bg-pink-600 toolbox">Jamstack</div>
-        <div className="text-black bg-white toolbox">CMS</div>
-        <div className="bg-orange-600 toolbox">Serverless</div>
-        <div className="bg-green-600 toolbox">RWD</div>
-        <div className="bg-yellow-500 toolbox">Firebase</div>
-        <div className="bg-yellow-600 toolbox">AWS</div>
+      <div className="grid grid-flow-col grid-cols-2 grid-rows-6 gap-3 p-6 mb-10 text-center rounded md:grid-cols-3 md:grid-rows-4 lg:grid-cols-6 lg:grid-rows-2 md:mb-0 glass">
+        <div className="bg-orange-600 rounded">Html</div>
+        <div className="bg-blue-700 rounded">CSS</div>
+        <div className="bg-yellow-400 rounded">Javascript</div>
+        <div className="rounded bg-cyan-400">React</div>
+        <div className="bg-black rounded">Next.js</div>
+        <div className="rounded bg-cyan-600">TailwindCSS</div>
+        <div className="bg-pink-600 rounded">Jamstack</div>
+        <div className="text-black bg-white rounded">CMS</div>
+        <div className="bg-orange-600 rounded">Serverless</div>
+        <div className="bg-green-600 rounded">RWD</div>
+        <div className="bg-yellow-500 rounded">Firebase</div>
       </div>
-    </div>
+    </>
   )
 }
