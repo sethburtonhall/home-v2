@@ -1,4 +1,5 @@
 import { useEffect, useContext } from 'react'
+import Image from 'next/image'
 import { SideBarContext } from '../contexts/SideBarContext'
 
 export default function Code() {
@@ -11,16 +12,18 @@ export default function Code() {
 
   return (
     <div className="flex flex-col">
-      <div className="flex items-center pb-6">
-        <img
+      <div className="flex flex-col items-center justify-start pb-6 md:flex-row">
+        <Image
           src="/seth-code.jpg"
           alt="Seth Hall"
-          className="w-20 h-20 mr-6 rounded-full"
+          className="w-20 h-20 rounded-full"
+          width={80}
+          height={80}
         />
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-6 md:pl-6 md:mt-0">
           <h2 className="text-4xl">Seth Hall : Web Developer</h2>
           <div
-            className="text-lg font-bold text-blue-500 transition-colors ease-in-out cursor-pointer hover:text-blue-700"
+            className="text-lg font-bold text-blue-400 transition-colors ease-in-out cursor-pointer hover:underline"
             onClick={() => setToggleContext(!toggleContext)}
           >
             {toggleContext === false && (
@@ -59,6 +62,7 @@ export default function Code() {
           </div>
         </div>
       </div>
+
       <p className="font-serif text-xl font-light pb-9">
         I am a Frontend/Full Stack Web Developer living in the North Carolina
         mountains. I am currently available for work. Take a look at my
@@ -74,7 +78,7 @@ export default function Code() {
         <div className="bg-black toolbox">Next.js</div>
         <div className="toolbox bg-cyan-600">TailwindCSS</div>
         <div className="bg-pink-600 toolbox">Jamstack</div>
-        <div className="text-black bg-white toolbox">Headless CMS</div>
+        <div className="text-black bg-white toolbox">CMS</div>
         <div className="bg-orange-600 toolbox">Serverless</div>
         <div className="bg-green-600 toolbox">RWD</div>
         <div className="bg-yellow-500 toolbox">Firebase</div>

@@ -1,19 +1,23 @@
+import Image from 'next/image'
+
 export default function Film() {
   return (
     <div className="flex flex-col">
-      <div className="flex items-center pb-6">
-        <img
+      <div className="flex flex-col items-center pb-6 md:flex-row ">
+        <Image
           src="/seth-film.jpg"
           alt="Seth Hall"
-          className="w-20 h-20 mr-6 rounded-full"
+          className="w-20 h-20 rounded-full"
+          width={80}
+          height={80}
         />
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-6 md:pl-6 md:mt-0">
           <h2 className="text-4xl">Seth Hall : Creative Producer</h2>
           <a
             href="https://hallpictures.us/"
             target="_blank"
             rel="noopener"
-            className="text-lg font-bold text-pink-500 transition-colors ease-in-out cursor-pointer hover:text-pink-700"
+            className="text-lg font-bold text-pink-400 transition-colors ease-in-out cursor-pointer hover:underline"
           >
             <svg
               className="relative inline-block w-4 h-4 mr-1 -top-0.5"

@@ -6,7 +6,7 @@ export default function Resume() {
 
   return (
     <aside
-      className={`fixed overflow-y-scroll h-screen p-6 pt-3 top-0 bg-gray-900 w-full transition-all duration-300 ease-in-out ${
+      className={`fixed overflow-y-scroll h-screen p-6 pt-3 top-0 bg-gray-900 w-full lg:w-1/2 transition-all duration-300 ease-in-out ${
         toggleContext === true ? 'left-0' : '-left-full'
       }`}
     >

@@ -17,7 +17,7 @@ export default function MadeWith() {
           href="https://nextjs.org/"
           target="_blank"
           rel="noopener"
-          className="px-2 pt-1 pb-1 bg-black rounded"
+          className="px-2 pt-1 pb-1 ml-2 mr-2 bg-black rounded"
         >
           Next.js
         </a>{' '}
@@ -26,7 +26,7 @@ export default function MadeWith() {
           href="https://tailwindcss.com/"
           target="_blank"
           rel="noopener"
-          className="px-2 pt-1 pb-1 ml-1 rounded bg-cyan-600"
+          className="px-2 pt-1 pb-1 ml-3 rounded bg-cyan-600"
         >
           TailwindCSS
         </a>

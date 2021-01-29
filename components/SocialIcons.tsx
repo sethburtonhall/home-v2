@@ -1,12 +1,11 @@
 // all icons are https://heroicons.com/ except https://remixicon.com/ for LinkedIn
 export default function SocialIcons() {
   return (
-    <div className="flex mb-6 md:mb-0">
+    <div className="flex items-center justify-between w-full mb-6 text-white sm:w-1/2 md:w-1/4 md:mb-0">
       <a
         href="https://github.com/sethburtonhall"
         target="_blank"
         rel="noopener"
-        className="social-svg"
       >
         <span className="sr-only">GitHub</span>
         <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
@@ -21,7 +20,6 @@ export default function SocialIcons() {
         href="https://twitter.com/sethburtonhall"
         target="_blank"
         rel="noopener"
-        className="social-svg"
       >
         <span className="sr-only">Twitter</span>
         <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
@@ -32,7 +30,6 @@ export default function SocialIcons() {
         href="https://www.instagram.com/sethburtonhall/"
         target="_blank"
         rel="noopener"
-        className="social-svg"
       >
         <span className="sr-only">Instagram</span>
         <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
@@ -43,7 +40,7 @@ export default function SocialIcons() {
           ></path>
         </svg>
       </a>
-      <a href="mailto:sethburtonhall@gmail.com" className="social-svg">
+      <a href="mailto:sethburtonhall@gmail.com">
         <span className="sr-only">Email</span>
         <svg
           className="w-7 h-7"
@@ -64,7 +61,6 @@ export default function SocialIcons() {
         href="https://www.linkedin.com/in/sethburtonhall/"
         target="_blank"
         rel="noopener"
-        className="social-svg"
       >
         <span className="sr-only">LinkedIn</span>
         <svg

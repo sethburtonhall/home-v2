@@ -38,7 +38,13 @@ export default function Home() {
       <Head>
         <title>Seth Hall: Code/Film</title>
       </Head>
-      <div className="relative">
+      <div
+        className={`relative bg-gradient-to-tr ${
+          context === 'code'
+            ? 'from-purple-700 to-pink-700'
+            : 'from-purple-700 to-blue-700'
+        }`}
+      >
         {/* <Image
           layout="fill"
           className="object-cover object-center pointer-events-none"
@@ -54,9 +60,7 @@ export default function Home() {
           alt="background image"
         /> */}
         {/* main content */}
-        <div
-          className={`relative flex flex-col min-h-screen px-6 pt-6 md:container lg:px-0`}
-        >
+        <div className="relative flex flex-col min-h-screen px-5 pt-5 md:container lg:px-0">
           <header className="flex items-center justify-end w-full">
             {/* <h1
               className="font-sans text-5xl tracking-wide text-white cursor-pointer"
@@ -75,6 +79,8 @@ export default function Home() {
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                   onClick={() => setContext('film')}
+                  width="100"
+                  height="40"
                 >
                   <path
                     strokeLinecap="round"

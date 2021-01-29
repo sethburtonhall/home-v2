@@ -39,10 +39,6 @@ p {
   @apply rounded;
 }
 
-.social-svg {
-  @apply mr-6 text-white;
-}
-
 ::-webkit-scrollbar {
   width: 8px;
 }
