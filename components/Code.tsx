@@ -69,19 +69,19 @@ export default function Code() {
         portfolio and reach out to discuss your project.
       </p>
 
-      <h1 className="pb-6 text-lg">Current Stack:</h1>
-      <div className="grid grid-flow-col grid-cols-2 grid-rows-6 gap-3 p-6 mb-10 text-center rounded md:grid-cols-3 md:grid-rows-4 lg:grid-cols-6 lg:grid-rows-2 md:mb-0 glass">
-        <div className="bg-orange-600 rounded">Html</div>
-        <div className="bg-blue-700 rounded">CSS</div>
-        <div className="bg-yellow-400 rounded">Javascript</div>
-        <div className="rounded bg-cyan-400">React</div>
-        <div className="bg-black rounded">Next.js</div>
-        <div className="rounded bg-cyan-600">TailwindCSS</div>
-        <div className="bg-pink-600 rounded">Jamstack</div>
-        <div className="text-black bg-white rounded">CMS</div>
-        <div className="bg-orange-600 rounded">Serverless</div>
-        <div className="bg-green-600 rounded">RWD</div>
-        <div className="bg-yellow-500 rounded">Firebase</div>
+      <h1 className="pb-2 text-lg">Current Stack:</h1>
+      <div className="grid grid-flow-row grid-cols-2 grid-rows-6 gap-3 p-6 mb-10 text-sm text-center rounded lg:text-base md:grid-cols-3 md:grid-rows-4 lg:grid-cols-6 lg:grid-rows-2 md:mb-0 glass">
+        <div className="p-1 bg-orange-600 rounded">Html</div>
+        <div className="p-1 bg-blue-700 rounded">CSS</div>
+        <div className="p-1 bg-yellow-400 rounded">Javascript</div>
+        <div className="p-1 rounded bg-cyan-400">React</div>
+        <div className="p-1 bg-black rounded">Next.js</div>
+        <div className="p-1 rounded bg-cyan-600">Tailwind</div>
+        <div className="p-1 bg-pink-600 rounded">Jamstack</div>
+        <div className="p-1 text-black bg-white rounded">CMS</div>
+        <div className="p-1 bg-orange-600 rounded">Serverless</div>
+        <div className="p-1 bg-green-600 rounded">RWD</div>
+        <div className="p-1 bg-yellow-500 rounded">Firebase</div>
       </div>
     </>
   )

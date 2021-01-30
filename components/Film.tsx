@@ -38,11 +38,11 @@ export default function Film() {
         </div>
       </div>
       <p className="font-serif text-xl font-light pb-9">
-        I also have an MFA in Creative Producing from UNCSA. Hall Pictures is my
-        NC based film company that specializes in the development and production
-        of shorts, features, and series. We are truly independent, doing our
-        best to develop great stories and produce high-quality content while
-        providing a safe and nurturing environment for film creatives.
+        I also have a MFA in Creative Producing from UNC School of the Arts. My
+        company specialize in the development and production of shorts,
+        features, and series. We are truly independent, doing our best to
+        develop great stories and produce high-quality content while providing a
+        safe and nurturing environment for film creatives.
       </p>
     </>
   )

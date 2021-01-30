@@ -6,7 +6,7 @@ export default function MadeWith() {
           href="https://github.com/sethburtonhall/home-v2"
           target="_blank"
           rel="noopener"
-          className="pt-1 mr-1 social-svg"
+          className="pt-1 mr-1 social-icon"
         >
           v2.0
         </a>

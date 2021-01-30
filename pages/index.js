@@ -19,11 +19,11 @@ export default function Home() {
 
   const backgroundVariants = {
     active: {
-      background: '#4C1D95',
+      backgroundColor: '#4C1D95',
       transition: { duration: 0.2 },
     },
     inactive: {
-      background: '#111827',
+      backgroundColor: '#111827',
       transition: { duration: 0.2 },
     },
   }
@@ -37,6 +37,9 @@ export default function Home() {
       <motion.div
         className={`relative`}
         variants={backgroundVariants}
+        // animate={
+        //   context === 'code' ? 'background: #4C1D95' : 'background: #111827'
+        // }
         animate={context === 'code' ? 'active' : 'inactive'}
       >
         {/* main content */}
@@ -118,7 +121,7 @@ export default function Home() {
 
         {/* Resume */}
         <motion.div
-          className="fixed top-0 w-full h-screen p-6 pt-3 overflow-y-scroll lg:w-1/2 bg-gradient-to-tr from-gray-800 to-gray-900"
+          className="fixed top-0 w-full h-screen p-6 pt-3 overflow-y-scroll scroller lg:w-1/2 bg-gradient-to-tr from-gray-800 to-gray-900"
           initial={{ x: -1000 }}
           animate={{
             x: toggleContext ? 0 : -1000,
