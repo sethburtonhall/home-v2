@@ -37,9 +37,6 @@ export default function Home() {
       <motion.div
         className={`relative`}
         variants={backgroundVariants}
-        // animate={
-        //   context === 'code' ? 'background: #4C1D95' : 'background: #111827'
-        // }
         animate={context === 'code' ? 'active' : 'inactive'}
       >
         {/* main content */}
