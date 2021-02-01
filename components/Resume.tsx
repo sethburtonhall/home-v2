@@ -53,7 +53,7 @@ export default function Resume() {
       <div className="pb-8">
         <div className="flex">
           <span className="text-4xl">💻 </span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+          <h2 className="flex-grow pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
             Experience
           </h2>
         </div>
@@ -74,7 +74,7 @@ export default function Resume() {
       <div className="pb-8">
         <div className="flex">
           <span className="text-4xl">😎</span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+          <h2 className="flex-grow pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
             Hard Skills
           </h2>
         </div>
@@ -111,7 +111,7 @@ export default function Resume() {
       <div className="pb-8">
         <div className="flex">
           <span className="text-4xl">🙂</span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+          <h2 className="flex-grow pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
             Soft Skills
           </h2>
         </div>
@@ -145,7 +145,7 @@ export default function Resume() {
       <div className="pb-8">
         <div className="flex">
           <span className="text-4xl">⚙️</span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+          <h2 className="flex-grow pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
             Projects
           </h2>
         </div>
@@ -307,7 +307,7 @@ export default function Resume() {
       <div className="pb-8">
         <div className="flex">
           <span className="text-4xl">⌨️</span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+          <h2 className="flex-grow pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
             Open Source
           </h2>
         </div>
@@ -341,7 +341,7 @@ export default function Resume() {
       <div className="pb-8">
         <div className="flex">
           <span className="text-4xl">📚</span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+          <h2 className="flex-grow pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
             Education
           </h2>
         </div>
