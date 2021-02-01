@@ -1,8 +1,8 @@
 import { useEffect, useContext } from 'react'
+import Head from 'next/head'
 import { ModeContext } from '../contexts/ModeContext'
 import { SideBarContext } from '../contexts/SideBarContext'
 import { motion } from 'framer-motion'
-import Head from 'next/head'
 import Code from '../components/Code'
 import Film from '../components/Film'
 import SocialIcons from '../components/SocialIcons'
@@ -33,7 +33,6 @@ export default function Home() {
       <Head>
         <title>Seth Hall: Code/Film</title>
       </Head>
-
       <motion.div
         className={`relative`}
         variants={backgroundVariants}
@@ -42,14 +41,6 @@ export default function Home() {
         {/* main content */}
         <div className="relative flex flex-col min-h-screen px-5 pt-5 md:container lg:px-0">
           <header className="flex items-center justify-end w-full">
-            {/* <h1
-              className="font-sans text-5xl tracking-wide text-white cursor-pointer"
-              onClick={() => setContext('code')}
-            >
-              <span className="text-transparent bg-gradient-to-r bg-clip-text from-blue-300 to-blue-900">
-                Seth Hall
-              </span>
-            </h1> */}
             <div className="cursor-pointer">
               {context === 'code' && (
                 <svg

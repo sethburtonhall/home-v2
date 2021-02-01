@@ -23,7 +23,7 @@ export default class MyDocument extends Document {
           />
         </Head>
         <body
-          className={`text-white ${
+          className={`bg-purple-900 text-white ${
             process.env.NODE_ENV === 'development' ? 'debug-screens' : ''
           }`}
         >
