@@ -63,7 +63,7 @@ export default function Code() {
         </div>
       </div>
 
-      <p className="font-serif text-xl font-light pb-9">
+      <p className="font-serif font-light lg:text-xl pb-9">
         I am a Frontend/Full Stack Web Developer living in the North Carolina
         mountains. I am currently available for work. Take a look at my
         portfolio and reach out to discuss your project.
