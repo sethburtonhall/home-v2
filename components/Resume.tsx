@@ -30,7 +30,7 @@ export default function Resume() {
           <h2 className="pb-3 pr-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
             Hello
           </h2>
-          <span className="text-4xl">👋🏼 😀 </span>
+          <span className="flex-grow text-4xl">👋🏼 😀 </span>
         </div>
 
         <p className="font-serif text-base font-light lg:text-lg">
