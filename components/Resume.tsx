@@ -25,10 +25,10 @@ export default function Resume() {
       {/* Introduction */}
       <div className="pb-8">
         <div className="flex">
-          <h2 className="pb-3 pr-3 text-3xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+          <h2 className="pb-3 pr-3 text-6xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
             Hello
           </h2>
-          <span className="text-3xl">👋🏼 😀 </span>
+          <span className="text-6xl">👋🏼 😀 </span>
         </div>
 
         <p className="font-serif font-light">
