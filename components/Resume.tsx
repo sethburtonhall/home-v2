@@ -34,18 +34,11 @@ export default function Resume() {
         </div>
 
         <p className="font-serif text-base font-light lg:text-lg">
-          I am a web developer working in Frontend & Full Stack environments. I
-          live in the great state of North Carolina. With 10 years of
-          development experience, I am capable of collaborating across a variety
-          of skill sets and personalities. I have been working remotely since
-          2006 and thanks to my tenacity, and the web community, I have taught
-          myself design and development. If we work together and I don't know
-          something, I will say so and then I will learn whatever is needed for
-          that specific project. I am married and have an 9-year-old daughter
-          and a 6-year-old son, so it is important to balance my time between
-          work and family. I possess a strong passion and dedication to creative
-          craft and vocation and I am ready to work on great products with an
-          even greater team. (This could be you!).
+          I am a web developer working in Frontend & Full Stack environments. As
+          a long time remote worker, I am capable of collaborating across a
+          variety of skill sets, teams and personalities. I possess a strong
+          passion and dedication to coding as a creative craft and vocation and
+          I am ready to work on great projects with an even greater team.
         </p>
       </div>
 
