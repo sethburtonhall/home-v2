@@ -1,5 +1,7 @@
+import { data } from 'autoprefixer'
 import { useContext } from 'react'
 import { SideBarContext } from '../contexts/SideBarContext'
+import { experience } from '../data/data'
 
 export default function Resume() {
   const [toggleContext, setToggleContext] = useContext(SideBarContext)
@@ -55,59 +57,17 @@ export default function Resume() {
             Experience
           </h2>
         </div>
-        <div className="pb-8">
-          <p className="text-xl">Frontend/Full Stack Web Developer</p>
-          <p className="text-base">SoleLife, Inc - Contract</p>
-          <p className="text-sm text-gray-500">
-            October 2020-December 2020 | Remote
-          </p>
-          <p className="pt-3 font-serif text-base font-light">
-            SoleLife streams and automates your coaching business with
-            tele-conferencing, chat, admin tasks, scheduling, billing, and more.
-            As a member of the dev team, I worked on a React frontend and AWS
-            serverless backend.
-          </p>
-        </div>
 
-        <div className="pb-8">
-          <p className="text-xl">Frontend Web Developer</p>
-          <p className="text-base">Ocupop - Contract</p>
-          <p className="text-sm text-gray-500">
-            May 2020-September 2020 | Remote
-          </p>
-          <p className="pt-3 font-serif text-base font-light">
-            Ocupop is a creative design agency based out of Milwaukee, WI. As a
-            member of the dev team, I worked on a custom e-commerce platform and
-            custom CMS marketing sites.
-          </p>
-        </div>
-
-        <div className="pb-8">
-          <p className="text-xl">Frontend Web Developer</p>
-          <p className="text-base">Ushahidi - Full Time</p>
-          <p className="text-sm text-gray-500">
-            May 2013-October 2018 | Remote
-          </p>
-          <p className="pt-3 font-serif text-base font-light">
-            Ushahidi is a Nairobi, Kenya based technology company that designs
-            products and initiatives that strive to solve global problems. As
-            part of the design team I was responsible for all front end code
-            across multiple software products and websites.
-          </p>
-        </div>
-
-        <div>
-          <p className="text-xl">Web Developer</p>
-          <p className="text-base">Self-Employed - Consultant</p>
-          <p className="text-sm text-gray-500">
-            2011-2013 & 2018-2020 | Remote
-          </p>
-          <p className="pt-3 font-serif text-base font-light">
-            As a consultant I have partnered with creative agencies and
-            individuals on a variety of web projects ranging from custom builds
-            to content management systems
-          </p>
-        </div>
+        {experience.map((e, index) => (
+          <div key={index} className="pb-8">
+            <p className="pb-1 text-xl">{e.title}</p>
+            <p className="text-base">{e.company}</p>
+            <p className="text-sm text-gray-500">{e.date}</p>
+            <p className="pt-3 font-serif text-base font-light">
+              {e.description}
+            </p>
+          </div>
+        ))}
       </div>
 
       {/* Hard Skills */}
@@ -191,7 +151,7 @@ export default function Resume() {
         </div>
         <div className="flex flex-col pb-8">
           <p className="text-lg">Artist Rescue Trust</p>
-          <p className="text-sm text-gray-500">
+          <p className="pb-3 text-sm text-gray-500">
             Jamstack, Gatsby, DatoCMS, GraphQL, Netlify
           </p>
           <a
@@ -214,7 +174,7 @@ export default function Resume() {
 
         <div className="flex flex-col pb-8">
           <p className="text-lg">Notes App</p>
-          <p className="text-sm text-gray-500">
+          <p className="pb-3 text-sm text-gray-500">
             React, user auth, file storage, & DynamoDB via AWS Amplify
           </p>
           <a
@@ -237,7 +197,7 @@ export default function Resume() {
 
         <div className="flex flex-col pb-8">
           <p className="text-lg">DKS Studio</p>
-          <p className="text-sm text-gray-500">
+          <p className="pb-3 text-sm text-gray-500">
             Jamstack, Gatsby, DatoCMS, GraphQL, Netlify
           </p>
           <a
@@ -260,7 +220,7 @@ export default function Resume() {
 
         <div className="flex flex-col pb-8">
           <p className="text-lg">Ushahidi Platform</p>
-          <p className="text-sm text-gray-500">
+          <p className="pb-3 text-sm text-gray-500">
             Custom HTML/CSS/JS, Responsive Design, RTL support, Handlebars.js
           </p>
           <a
@@ -283,7 +243,7 @@ export default function Resume() {
 
         <div className="flex flex-col pb-8">
           <p className="text-lg">Movie Search</p>
-          <p className="text-sm text-gray-500">
+          <p className="pb-3 text-sm text-gray-500">
             React.js, TMDB API, Custom Hooks, Styled Components
           </p>
           <a
@@ -306,7 +266,7 @@ export default function Resume() {
 
         <div className="flex flex-col pb-8">
           <p className="text-lg">Old Mother Hubbard</p>
-          <p className="text-sm text-gray-500">
+          <p className="pb-3 text-sm text-gray-500">
             HTML/CSS, Responsive Design, Foundation UI
           </p>
           <a
@@ -329,7 +289,9 @@ export default function Resume() {
 
         <div className="flex flex-col pb-8">
           <p className="text-lg">Ushahidi.com</p>
-          <p className="text-sm text-gray-500">Craft CMS, Twig, HTML/CSS/JS</p>
+          <p className="pb-3 text-sm text-gray-500">
+            Craft CMS, Twig, HTML/CSS/JS
+          </p>
           <a
             className="resume-link"
             href="https://www.ushahidi.com/"
@@ -355,7 +317,7 @@ export default function Resume() {
         </p>
         <div className="flex flex-col pb-6">
           <p className="text-lg">Protege</p>
-          <p className="text-sm text-gray-500">React, Firebase</p>
+          <p className="pb-3 text-sm text-gray-500">React, Firebase</p>
           <a
             className="resume-link"
             href="https://protege.dev/"
@@ -385,21 +347,21 @@ export default function Resume() {
         </div>
         <div className="pb-6">
           <p className="text-lg">BA - Mass Communications</p>
-          <p className="text-sm text-gray-500">
+          <p className="pb-3 text-sm text-gray-500">
             North Carolina State University
           </p>
         </div>
 
         <div className="pb-6">
           <p className="text-lg">MFA - Creative Producing</p>
-          <p className="text-sm text-gray-500">
+          <p className="pb-3 text-sm text-gray-500">
             UNC School of the Arts - School of Filmmaking
           </p>
         </div>
 
         <div className="pb-6">
           <p className="text-lg">Certified ScrumMaster®</p>
-          <p className="text-sm text-gray-500">Scrum Alliance</p>
+          <p className="pb-3 text-sm text-gray-500">Scrum Alliance</p>
         </div>
       </div>
     </>
