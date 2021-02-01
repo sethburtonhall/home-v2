@@ -9,7 +9,7 @@ export default function Film() {
           width={80}
           height={80}
         />
-        <div className="flex flex-col mt-6 md:pl-6 md:mt-0">
+        <div className="flex flex-col flex-grow mt-6 md:pl-6 md:mt-0">
           <h2 className="text-4xl">Seth Hall : Creative Producer</h2>
           <a
             href="https://hallpictures.us/"
