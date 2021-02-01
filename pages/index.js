@@ -86,17 +86,17 @@ export default function Home() {
           <main
             className={`flex flex-col items-center justify-start flex-grow md:mt-32`}
           >
-            {context === 'code' ? (
+            {context === 'film' ? (
+              <motion.div className="flex flex-col this-is-film">
+                <Film />
+              </motion.div>
+            ) : (
               <motion.div
                 className="flex flex-col this-is-code"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
               >
                 <Code />
-              </motion.div>
-            ) : (
-              <motion.div className="flex flex-col this-is-film">
-                <Film />
               </motion.div>
             )}
           </main>
