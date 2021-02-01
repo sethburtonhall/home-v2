@@ -34,11 +34,12 @@ export default function Resume() {
         </div>
 
         <p className="font-serif text-base font-light lg:text-lg">
-          I am a web developer working in Frontend & Full Stack environments. As
-          a long time remote worker, I am capable of collaborating across a
-          variety of skill sets, teams and personalities. I possess a strong
-          passion and dedication to coding as a creative craft and vocation and
-          I am ready to work on great projects with an even greater team.
+          I am a web developer working in Frontend & Full Stack environments. I
+          favor React, NextJS, Jamstack and serverless stacks. As a long time
+          remote worker, I am capable of collaborating across a variety of skill
+          sets, teams and personalities. I possess a strong passion and
+          dedication to coding as a creative craft and vocation and I am ready
+          to work on great projects with an even greater team.
         </p>
       </div>
 
