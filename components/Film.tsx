@@ -37,7 +37,7 @@ export default function Film() {
           </a>
         </div>
       </div>
-      <p className="font-serif text-xl font-light pb-9">
+      <p className="font-serif text-base font-light lg:text-xl pb-9">
         I also have a MFA in Creative Producing from UNC School of the Arts. My
         company specialize in the development and production of shorts,
         features, and series. We are truly independent, doing our best to
