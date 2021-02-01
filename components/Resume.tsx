@@ -31,7 +31,7 @@ export default function Resume() {
           <span className="text-4xl">👋🏼 😀 </span>
         </div>
 
-        <p className="font-serif font-light">
+        <p className="font-serif text-base font-light lg:text-lg">
           I am a web developer working in Frontend & Full Stack environments. I
           live in the great state of North Carolina. With 10 years of
           development experience, I am capable of collaborating across a variety
@@ -55,9 +55,9 @@ export default function Resume() {
             Experience
           </h2>
         </div>
-        <div className="pb-6">
-          <p className="text-xl">Web Developer</p>
-          <p className="text-md">SoleLife, Inc - Contract</p>
+        <div className="pb-8">
+          <p className="text-xl">Frontend/Full Stack Web Developer</p>
+          <p className="text-base">SoleLife, Inc - Contract</p>
           <p className="text-sm text-gray-500">
             October 2020-December 2020 | Remote
           </p>
@@ -69,9 +69,9 @@ export default function Resume() {
           </p>
         </div>
 
-        <div className="pb-6">
-          <p className="text-xl">Web Developer</p>
-          <p className="text-md">Ocupop - Contract</p>
+        <div className="pb-8">
+          <p className="text-xl">Frontend Web Developer</p>
+          <p className="text-base">Ocupop - Contract</p>
           <p className="text-sm text-gray-500">
             May 2020-September 2020 | Remote
           </p>
@@ -82,9 +82,9 @@ export default function Resume() {
           </p>
         </div>
 
-        <div className="pb-6">
-          <p className="text-xl">Web Developer</p>
-          <p className="text-md">Ushahidi - Full Time</p>
+        <div className="pb-8">
+          <p className="text-xl">Frontend Web Developer</p>
+          <p className="text-base">Ushahidi - Full Time</p>
           <p className="text-sm text-gray-500">
             May 2013-October 2018 | Remote
           </p>
@@ -98,7 +98,7 @@ export default function Resume() {
 
         <div>
           <p className="text-xl">Web Developer</p>
-          <p className="text-md">Self-Employed - Consultant</p>
+          <p className="text-base">Self-Employed - Consultant</p>
           <p className="text-sm text-gray-500">
             2011-2013 & 2018-2020 | Remote
           </p>
@@ -119,7 +119,7 @@ export default function Resume() {
           </h2>
         </div>
 
-        <div className="font-serif text-base font-light ">
+        <div className="font-serif text-base font-light">
           <ul className="pl-5 list-disc list-outside">
             <li className="pb-3">HTML/CSS/JS</li>
             <li className="pb-3">React Ecosystem</li>
@@ -156,7 +156,7 @@ export default function Resume() {
           </h2>
         </div>
 
-        <div className="font-serif text-base font-light ">
+        <div className="font-serif text-base font-light">
           <ul className="pl-5 list-disc list-outside">
             <li className="pb-3">
               remote working - I am skilled in communicating across multiple
@@ -189,13 +189,13 @@ export default function Resume() {
             Projects
           </h2>
         </div>
-        <div className="flex flex-col pb-6">
-          <p className="text-md">Artist Rescue Trust</p>
+        <div className="flex flex-col pb-8">
+          <p className="text-lg">Artist Rescue Trust</p>
           <p className="text-sm text-gray-500">
             Jamstack, Gatsby, DatoCMS, GraphQL, Netlify
           </p>
           <a
-            className="text-purple-600 hover:text-purple-700"
+            className="resume-link"
             href="https://artistrescue.org/"
             target="_blank"
             rel="noopener"
@@ -203,7 +203,7 @@ export default function Resume() {
             Site
           </a>
           <a
-            className="text-purple-600 hover:text-purple-700"
+            className="resume-link"
             href="https://github.com/OurKettle/artist-rescue-trust"
             target="_blank"
             rel="noopener"
@@ -212,13 +212,13 @@ export default function Resume() {
           </a>
         </div>
 
-        <div className="flex flex-col pb-6">
-          <p className="text-md">Notes App</p>
+        <div className="flex flex-col pb-8">
+          <p className="text-lg">Notes App</p>
           <p className="text-sm text-gray-500">
             React, user auth, file storage, & DynamoDB via AWS Amplify
           </p>
           <a
-            className="text-purple-600 hover:text-purple-700"
+            className="resume-link"
             href="https://serverless-notes-sbh.netlify.app/"
             target="_blank"
             rel="noopener"
@@ -226,7 +226,7 @@ export default function Resume() {
             Site
           </a>
           <a
-            className="text-purple-600 hover:text-purple-700"
+            className="resume-link"
             href="https://github.com/sethburtonhall/notes-client"
             target="_blank"
             rel="noopener"
@@ -235,13 +235,13 @@ export default function Resume() {
           </a>
         </div>
 
-        <div className="flex flex-col pb-6">
-          <p className="text-md">DKS Studio</p>
+        <div className="flex flex-col pb-8">
+          <p className="text-lg">DKS Studio</p>
           <p className="text-sm text-gray-500">
             Jamstack, Gatsby, DatoCMS, GraphQL, Netlify
           </p>
           <a
-            className="text-purple-600 hover:text-purple-700"
+            className="resume-link"
             href="https://davidkstanley.studio/"
             target="_blank"
             rel="noopener"
@@ -249,7 +249,7 @@ export default function Resume() {
             Site
           </a>
           <a
-            className="text-purple-600 hover:text-purple-700"
+            className="resume-link"
             href="https://github.com/sethburtonhall/dks3.0"
             target="_blank"
             rel="noopener"
@@ -258,13 +258,13 @@ export default function Resume() {
           </a>
         </div>
 
-        <div className="flex flex-col pb-6">
-          <p className="text-md">Ushahidi Platform</p>
+        <div className="flex flex-col pb-8">
+          <p className="text-lg">Ushahidi Platform</p>
           <p className="text-sm text-gray-500">
             Custom HTML/CSS/JS, Responsive Design, RTL support, Handlebars.js
           </p>
           <a
-            className="text-purple-600 hover:text-purple-700"
+            className="resume-link"
             href="https://uchaguzi.or.ke/views/map"
             target="_blank"
             rel="noopener"
@@ -272,7 +272,7 @@ export default function Resume() {
             App
           </a>
           <a
-            className="text-purple-600 hover:text-purple-700"
+            className="resume-link"
             href="https://github.com/ushahidi/platform-pattern-library"
             target="_blank"
             rel="noopener"
@@ -281,13 +281,13 @@ export default function Resume() {
           </a>
         </div>
 
-        <div className="flex flex-col pb-6">
-          <p className="text-md">Movie Search</p>
+        <div className="flex flex-col pb-8">
+          <p className="text-lg">Movie Search</p>
           <p className="text-sm text-gray-500">
             React.js, TMDB API, Custom Hooks, Styled Components
           </p>
           <a
-            className="text-purple-600 hover:text-purple-700"
+            className="resume-link"
             href="https://react-tmdb-sbh.netlify.com/"
             target="_blank"
             rel="noopener"
@@ -295,7 +295,7 @@ export default function Resume() {
             App
           </a>
           <a
-            className="text-purple-600 hover:text-purple-700"
+            className="resume-link"
             href="https://github.com/sethburtonhall/react-movie"
             target="_blank"
             rel="noopener"
@@ -304,13 +304,13 @@ export default function Resume() {
           </a>
         </div>
 
-        <div className="flex flex-col pb-6">
-          <p className="text-md">Old Mother Hubbard</p>
+        <div className="flex flex-col pb-8">
+          <p className="text-lg">Old Mother Hubbard</p>
           <p className="text-sm text-gray-500">
             HTML/CSS, Responsive Design, Foundation UI
           </p>
           <a
-            className="text-purple-600 hover:text-purple-700"
+            className="resume-link"
             href="https://www.oldmotherhubbard.com/"
             target="_blank"
             rel="noopener"
@@ -318,7 +318,7 @@ export default function Resume() {
             App
           </a>
           <a
-            className="text-purple-600 hover:text-purple-700"
+            className="resume-link"
             href="https://github.com/sethburtonhall/old-mother-hubbard"
             target="_blank"
             rel="noopener"
@@ -327,11 +327,11 @@ export default function Resume() {
           </a>
         </div>
 
-        <div className="flex flex-col pb-6">
-          <p className="text-md">Ushahidi.com</p>
+        <div className="flex flex-col pb-8">
+          <p className="text-lg">Ushahidi.com</p>
           <p className="text-sm text-gray-500">Craft CMS, Twig, HTML/CSS/JS</p>
           <a
-            className="text-purple-600 hover:text-purple-700"
+            className="resume-link"
             href="https://www.ushahidi.com/"
             target="_blank"
             rel="noopener"
@@ -349,11 +349,15 @@ export default function Resume() {
             Open Source
           </h2>
         </div>
+        <p className="pb-6 text-base font-light">
+          I am new to open source and continue to explore projects that I can
+          contribute to. More open source projects to come.
+        </p>
         <div className="flex flex-col pb-6">
-          <p className="text-md">Protege</p>
+          <p className="text-lg">Protege</p>
           <p className="text-sm text-gray-500">React, Firebase</p>
           <a
-            className="text-purple-600 hover:text-purple-700"
+            className="resume-link"
             href="https://protege.dev/"
             target="_blank"
             rel="noopener"
@@ -361,7 +365,7 @@ export default function Resume() {
             Site
           </a>
           <a
-            className="text-purple-600 hover:text-purple-700"
+            className="resume-link"
             href="https://github.com/drewclem/protege"
             target="_blank"
             rel="noopener"
@@ -380,21 +384,21 @@ export default function Resume() {
           </h2>
         </div>
         <div className="pb-6">
-          <p className="text-md">BA - Mass Communications</p>
+          <p className="text-lg">BA - Mass Communications</p>
           <p className="text-sm text-gray-500">
             North Carolina State University
           </p>
         </div>
 
         <div className="pb-6">
-          <p className="text-md">MFA - Creative Producing</p>
+          <p className="text-lg">MFA - Creative Producing</p>
           <p className="text-sm text-gray-500">
             UNC School of the Arts - School of Filmmaking
           </p>
         </div>
 
         <div className="pb-6">
-          <p className="text-md">Certified ScrumMaster®</p>
+          <p className="text-lg">Certified ScrumMaster®</p>
           <p className="text-sm text-gray-500">Scrum Alliance</p>
         </div>
       </div>
