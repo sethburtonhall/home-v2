@@ -39,7 +39,7 @@ export default function Film() {
       </div>
       <p className="font-serif text-base font-light lg:text-xl pb-9">
         I also have a MFA in Creative Producing from UNC School of the Arts. My
-        company specialize in the development and production of shorts,
+        company specializes in the development and production of shorts,
         features, and series. We are truly independent, doing our best to
         develop great stories and produce high-quality content while providing a
         safe and nurturing environment for film creatives.
