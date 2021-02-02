@@ -44,7 +44,7 @@ export default function Home() {
             <div className="cursor-pointer">
               {context === 'code' && (
                 <svg
-                  className="w-10 ml-auto"
+                  className="w-10 ml-auto text-white transition hover:text-pink-500"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -63,7 +63,7 @@ export default function Home() {
               )}
               {context === 'film' && (
                 <svg
-                  className="w-10 ml-auto"
+                  className="w-10 ml-auto text-white transition hover:text-pink-500"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
