@@ -331,6 +331,66 @@ export default function Resume() {
         </div>
       </div>
 
+      {/* Communities */}
+      <div className="pb-8">
+        <div className="flex flex-grow">
+          <span className="text-4xl">❤️</span>
+          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+            Communities
+          </h2>
+        </div>
+        <p className="pb-6 text-base font-light">
+          I am involved in some amazing online communities that are super
+          supportive and essential to my growth as a person and developer,
+          especially during this global pandemic.
+        </p>
+        <div className="flex flex-col pb-6">
+          <p className="text-lg">VirtualCoffee.io</p>
+          <p className="pb-3 text-sm text-gray-500">
+            An intimate community for all devs, optimized for you.
+          </p>
+          <a
+            className="resume-link"
+            href="https://virtualcoffee.io/"
+            target="_blank"
+            rel="noopener"
+          >
+            Site
+          </a>
+        </div>
+
+        <div className="flex flex-col pb-6">
+          <p className="text-lg">Dev.to</p>
+          <p className="pb-3 text-sm text-gray-500">
+            A constructive and inclusive social network for software developers.
+            With you every step of your journey.
+          </p>
+          <a
+            className="resume-link"
+            href="https://dev.to/sethburtonhall"
+            target="_blank"
+            rel="noopener"
+          >
+            Site
+          </a>
+        </div>
+
+        <div className="flex flex-col pb-6">
+          <p className="text-lg">Party Corgi Network</p>
+          <p className="pb-3 text-sm text-gray-500">
+            An inclusive community of content creators helping each other grow.
+          </p>
+          <a
+            className="resume-link"
+            href="https://www.partycorgi.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            Site
+          </a>
+        </div>
+      </div>
+
       {/* Education */}
       <div className="pb-8">
         <div className="flex flex-grow">
