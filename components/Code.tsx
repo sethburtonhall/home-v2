@@ -21,7 +21,7 @@ export default function Code() {
         <div className="flex flex-col flex-grow mt-6 md:pl-6 md:mt-0">
           <h2 className="text-4xl">Seth Hall : Web Developer</h2>
           <div
-            className="text-lg font-bold text-blue-400 transition-colors ease-in-out cursor-pointer hover:underline"
+            className="text-lg font-bold underline transition-colors ease-in-out cursor-pointer hover:text-blue-400"
             onClick={() => setToggleContext(!toggleContext)}
           >
             {toggleContext === false && (
@@ -70,17 +70,21 @@ export default function Code() {
 
       <h1 className="pb-2 text-lg">Current Stack:</h1>
       <div className="grid grid-flow-row grid-cols-2 grid-rows-6 gap-3 p-6 mb-10 text-sm text-center rounded lg:text-base md:grid-cols-3 md:grid-rows-4 lg:grid-cols-6 lg:grid-rows-2 md:mb-0 glass">
-        <div className="p-1 bg-orange-600 rounded">Html</div>
+        <div className="p-1 text-gray-900 bg-orange-600 rounded">Html</div>
         <div className="p-1 bg-blue-700 rounded">CSS</div>
-        <div className="p-1 bg-yellow-400 rounded">Javascript</div>
-        <div className="p-1 rounded bg-cyan-400">React</div>
+        <div className="p-1 text-gray-900 bg-yellow-400 rounded">
+          Javascript
+        </div>
+        <div className="p-1 text-gray-900 rounded bg-cyan-400">React</div>
         <div className="p-1 bg-black rounded">Next.js</div>
-        <div className="p-1 rounded bg-cyan-600">Tailwind</div>
+        <div className="p-1 text-gray-900 rounded bg-cyan-600">Tailwind</div>
         <div className="p-1 bg-pink-600 rounded">Jamstack</div>
-        <div className="p-1 text-black bg-white rounded">CMS</div>
-        <div className="p-1 bg-orange-600 rounded">Serverless</div>
-        <div className="p-1 bg-green-600 rounded">RWD</div>
-        <div className="p-1 bg-yellow-500 rounded">Firebase</div>
+        <div className="p-1 text-gray-900 bg-white rounded">CMS</div>
+        <div className="p-1 text-gray-900 bg-orange-600 rounded">
+          Serverless
+        </div>
+        <div className="p-1 text-gray-900 bg-green-600 rounded">RWD</div>
+        <div className="p-1 text-gray-900 bg-yellow-500 rounded">Firebase</div>
       </div>
     </>
   )
