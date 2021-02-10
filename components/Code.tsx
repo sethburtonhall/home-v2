@@ -64,9 +64,8 @@ export default function Code() {
       </div>
 
       <p className="font-serif text-base font-light lg:text-xl pb-9">
-        I am a Frontend/Full Stack Web Developer living in the North Carolina
-        mountains. I am currently available for work. Take a look at my
-        portfolio and reach out to discuss your project.
+        Frontend/Full Stack Web Developer. Always building. Always learning.
+        Currently available for work.
       </p>
 
       <h1 className="pb-2 text-lg">Current Stack:</h1>
