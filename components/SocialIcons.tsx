@@ -7,6 +7,7 @@ export default function SocialIcons() {
         target="_blank"
         rel="noopener"
         className="social-icon"
+        title="Github"
       >
         <span className="sr-only">GitHub</span>
         <svg
@@ -28,6 +29,7 @@ export default function SocialIcons() {
         target="_blank"
         rel="noopener"
         className="social-icon"
+        title="Twitter"
       >
         <span className="sr-only">Twitter</span>
         <svg
@@ -45,6 +47,7 @@ export default function SocialIcons() {
         target="_blank"
         rel="noopener"
         className="flex items-center h-6 pl-1 text-xs border-2 rounded w-9 social-icon hover:border-pink-500"
+        title="Dev.to"
       >
         DEV
       </a>
@@ -53,6 +56,7 @@ export default function SocialIcons() {
         target="_blank"
         rel="noopener"
         className="social-icon"
+        title="Instagram"
       >
         <span className="sr-only">Instagram</span>
         <svg
@@ -74,6 +78,7 @@ export default function SocialIcons() {
         target="_blank"
         rel="noopener"
         className="social-icon"
+        title="LinkedIn"
       >
         <span className="sr-only">LinkedIn</span>
         <svg
@@ -89,7 +94,11 @@ export default function SocialIcons() {
           <path d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z" />
         </svg>
       </a>
-      <a href="mailto:sethburtonhall@gmail.com" className="social-icon">
+      <a
+        href="mailto:sethburtonhall@gmail.com"
+        className="social-icon"
+        title="Email"
+      >
         <span className="sr-only">Email</span>
         <svg
           className="w-6 h-6"
