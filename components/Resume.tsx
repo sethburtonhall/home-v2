@@ -77,11 +77,13 @@ export default function Resume() {
         <div className="font-serif text-base font-light">
           <ul className="pl-5 list-disc list-outside">
             <li className="pb-3">HTML/CSS/JS</li>
-            <li className="pb-3">React Ecosystem</li>
+            <li className="pb-3">TailwindCSS</li>
+            <li className="pb-3">React</li>
+            <li className="pb-3">NextJS</li>
+            <li className="pb-3">Jamstack</li>
+            <li className="pb-3">Headless CMS</li>
             <li className="pb-3">Firebase/AWS</li>
             <li className="pb-3">serverless stack</li>
-            <li className="pb-3">Jamstack</li>
-            <li className="pb-3">headless CMS</li>
             <li className="pb-3">
               static site generators (Next, Gatsby, Jekyll)
             </li>
@@ -307,12 +309,12 @@ export default function Resume() {
           </h2>
         </div>
         <p className="pb-6 text-base font-light">
-          I am new to open source and continue to explore projects that I can
-          contribute to. More open source projects to come.
+          I am a core team member on Protegé, an open source job board for
+          Junior Developers.
         </p>
         <div className="flex flex-col pb-6">
           <p className="text-lg">Protege</p>
-          <p className="pb-3 text-sm text-gray-500">React, Firebase</p>
+          <p className="pb-3 text-sm text-gray-500">React, NextJS, Firebase</p>
           <a
             className="resume-link"
             href="https://protege.dev/"
