@@ -41,7 +41,7 @@ export default class MyDocument extends Document {
           +{' '}
           <meta
             property="og:description"
-            content="Frontend/Full Stack Web Developer. Creative Producer."
+            content="Web Developer. Creative Producer."
             key="ogdesc"
           />
           {/* Twitter */}
