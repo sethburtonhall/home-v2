@@ -45,7 +45,11 @@ export default class MyDocument extends Document {
             key="ogdesc"
           />
           {/* Twitter */}
-          <meta name="twitter:card" content="summary" key="twcard" />
+          <meta
+            name="twitter:card"
+            content="summary_large_image"
+            key="twcard"
+          />
           <meta
             name="twitter:creator"
             content="@sethburtonhall"
