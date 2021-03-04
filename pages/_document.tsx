@@ -38,7 +38,6 @@ export default class MyDocument extends Document {
             content="Seth Hall Creative - Code:Film"
             key="ogtitle"
           />
-          +{' '}
           <meta
             property="og:description"
             content="Web Developer. Creative Producer."
