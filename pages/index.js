@@ -11,7 +11,7 @@ import Resume from '../components/Resume'
 
 export default function Home() {
   const [context, setContext] = useContext(ModeContext)
-  const [toggleContext] = useContext(SideBarContext)
+  const [toggleContext, setToggleContext] = useContext(SideBarContext)
 
   useEffect(() => {
     setContext('code')
@@ -28,6 +28,12 @@ export default function Home() {
     },
   }
 
+  const handleOutsideClick = () => {
+    if (toggleContext) {
+      setToggleContext(!toggleContext)
+    }
+  }
+
   return (
     <>
       <Head>
@@ -39,7 +45,10 @@ export default function Home() {
         animate={context === 'code' ? 'active' : 'inactive'}
       >
         {/* main content */}
-        <div className="relative flex flex-col min-h-screen px-5 pt-5 md:container lg:px-0">
+        <div
+          className="relative flex flex-col min-h-screen px-5 pt-5 md:container lg:px-0"
+          onClick={handleOutsideClick}
+        >
           <header className="flex items-center justify-end w-full">
             <div className="cursor-pointer">
               {context === 'code' && (

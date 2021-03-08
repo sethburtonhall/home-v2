@@ -44,100 +44,6 @@ export default function Resume() {
         </p>
       </div>
 
-      {/* Experience */}
-      <div className="pb-8">
-        <div className="flex flex-grow">
-          <span className="text-4xl">💻 </span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
-            Experience
-          </h2>
-        </div>
-
-        {experience.map((e, index) => (
-          <div key={index} className="pb-8">
-            <p className="pb-1 text-xl">{e.title}</p>
-            <p className="text-base">{e.company}</p>
-            <p className="text-sm text-gray-500">{e.date}</p>
-            <p className="pt-3 font-serif text-base font-light">
-              {e.description}
-            </p>
-          </div>
-        ))}
-      </div>
-
-      {/* Hard Skills */}
-      <div className="pb-8">
-        <div className="flex flex-grow">
-          <span className="text-4xl">😎</span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
-            Hard Skills
-          </h2>
-        </div>
-
-        <div className="font-serif text-base font-light">
-          <ul className="pl-5 list-disc list-outside">
-            <li className="pb-3">HTML/CSS/JS</li>
-            <li className="pb-3">TailwindCSS</li>
-            <li className="pb-3">React</li>
-            <li className="pb-3">NextJS</li>
-            <li className="pb-3">Jamstack</li>
-            <li className="pb-3">Headless CMS</li>
-            <li className="pb-3">Firebase/AWS</li>
-            <li className="pb-3">serverless stack</li>
-            <li className="pb-3">
-              static site generators (Next, Gatsby, Jekyll)
-            </li>
-            <li className="pb-3">DatoCMS, CraftCMS, CloudCannon</li>
-            <li className="pb-3">
-              styled components, styled system, Sass, PostCSS, etc..
-            </li>
-            <li className="pb-3">html templating (Handlebars, Twig, etc...)</li>
-            <li className="pb-3">
-              CSS frameworks (Material UI, Bootstrap, Chakra UI, Foundation,
-              etc...)
-            </li>
-            <li className="pb-3">git version control (Github, BitBucket)</li>
-            <li className="pb-3">responsive design web</li>
-            <li className="pb-3">performance and accessibility</li>
-            <li className="pb-3">terminal/command line</li>
-          </ul>
-        </div>
-      </div>
-
-      {/* Soft Skills */}
-      <div className="pb-8">
-        <div className="flex flex-grow">
-          <span className="text-4xl">🙂</span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
-            Soft Skills
-          </h2>
-        </div>
-
-        <div className="font-serif text-base font-light">
-          <ul className="pl-5 list-disc list-outside">
-            <li className="pb-3">
-              remote working - I am skilled in communicating across multiple
-              time zones with multiple types of positions and personalities. In
-              an autonomous environment I am great at time management and
-              meeting deadlines.
-            </li>
-            <li className="pb-3">experience in Agile development</li>
-            <li className="pb-3">honest and thoughtful communication</li>
-            <li className="pb-3">
-              excellent written and verbal communication skills
-            </li>
-            <li className="pb-3">listening and validating others</li>
-            <li className="pb-3">positive and encouraging personality</li>
-            <li className="pb-3">friendly and laid back demeanor</li>
-            <li className="pb-3">a good sense of humor</li>
-            <li className="pb-3">
-              a deep understanding of the development process and the efficiency
-              needed to see it through from start to finish
-            </li>
-          </ul>
-        </div>
-      </div>
-
       {/* Projects */}
       <div className="pb-8">
         <div className="flex flex-grow">
@@ -297,6 +203,100 @@ export default function Resume() {
           >
             Site
           </a>
+        </div>
+      </div>
+
+      {/* Experience */}
+      <div className="pb-8">
+        <div className="flex flex-grow">
+          <span className="text-4xl">💻 </span>
+          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+            Experience
+          </h2>
+        </div>
+
+        {experience.map((e, index) => (
+          <div key={index} className="pb-8">
+            <p className="pb-1 text-xl">{e.title}</p>
+            <p className="text-base">{e.company}</p>
+            <p className="text-sm text-gray-500">{e.date}</p>
+            <p className="pt-3 font-serif text-base font-light">
+              {e.description}
+            </p>
+          </div>
+        ))}
+      </div>
+
+      {/* Hard Skills */}
+      <div className="pb-8">
+        <div className="flex flex-grow">
+          <span className="text-4xl">😎</span>
+          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+            Hard Skills
+          </h2>
+        </div>
+
+        <div className="font-serif text-base font-light">
+          <ul className="pl-5 list-disc list-outside">
+            <li className="pb-3">HTML/CSS/JS</li>
+            <li className="pb-3">TailwindCSS</li>
+            <li className="pb-3">React</li>
+            <li className="pb-3">NextJS</li>
+            <li className="pb-3">Jamstack</li>
+            <li className="pb-3">Headless CMS</li>
+            <li className="pb-3">Firebase/AWS</li>
+            <li className="pb-3">serverless stack</li>
+            <li className="pb-3">
+              static site generators (Next, Gatsby, Jekyll)
+            </li>
+            <li className="pb-3">DatoCMS, CraftCMS, CloudCannon</li>
+            <li className="pb-3">
+              styled components, styled system, Sass, PostCSS, etc..
+            </li>
+            <li className="pb-3">html templating (Handlebars, Twig, etc...)</li>
+            <li className="pb-3">
+              CSS frameworks (Material UI, Bootstrap, Chakra UI, Foundation,
+              etc...)
+            </li>
+            <li className="pb-3">git version control (Github, BitBucket)</li>
+            <li className="pb-3">responsive design web</li>
+            <li className="pb-3">performance and accessibility</li>
+            <li className="pb-3">terminal/command line</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Soft Skills */}
+      <div className="pb-8">
+        <div className="flex flex-grow">
+          <span className="text-4xl">🙂</span>
+          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+            Soft Skills
+          </h2>
+        </div>
+
+        <div className="font-serif text-base font-light">
+          <ul className="pl-5 list-disc list-outside">
+            <li className="pb-3">
+              remote working - I am skilled in communicating across multiple
+              time zones with multiple types of positions and personalities. In
+              an autonomous environment I am great at time management and
+              meeting deadlines.
+            </li>
+            <li className="pb-3">experience in Agile development</li>
+            <li className="pb-3">honest and thoughtful communication</li>
+            <li className="pb-3">
+              excellent written and verbal communication skills
+            </li>
+            <li className="pb-3">listening and validating others</li>
+            <li className="pb-3">positive and encouraging personality</li>
+            <li className="pb-3">friendly and laid back demeanor</li>
+            <li className="pb-3">a good sense of humor</li>
+            <li className="pb-3">
+              a deep understanding of the development process and the efficiency
+              needed to see it through from start to finish
+            </li>
+          </ul>
         </div>
       </div>
 
