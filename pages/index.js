@@ -92,9 +92,7 @@ export default function Home() {
             </div>
           </header>
 
-          <main
-            className={`flex flex-col items-center justify-start flex-grow md:mt-32`}
-          >
+          <main className={`flex flex-col justify-start flex-grow md:mt-32`}>
             {context === 'film' ? (
               <motion.div className="flex flex-col this-is-film">
                 <Film />
