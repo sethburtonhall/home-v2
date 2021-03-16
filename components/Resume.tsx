@@ -52,6 +52,29 @@ export default function Resume() {
             Projects
           </h2>
         </div>
+        <div className="flex flex-col pb-6">
+          <p className="text-lg">Protegé</p>
+          <p className="pb-3 text-sm text-gray-500">
+            NextJS, TailwindCSS, Firebase
+          </p>
+          <a
+            className="resume-link"
+            href="https://protege.dev/"
+            target="_blank"
+            rel="noopener"
+          >
+            Site
+          </a>
+          <a
+            className="resume-link"
+            href="https://github.com/drewclem/protege"
+            target="_blank"
+            rel="noopener"
+          >
+            Source
+          </a>
+        </div>
+
         <div className="flex flex-col pb-8">
           <p className="text-lg">Artist Rescue Trust</p>
           <p className="pb-3 text-sm text-gray-500">
@@ -313,8 +336,10 @@ export default function Resume() {
           Junior Developers.
         </p>
         <div className="flex flex-col pb-6">
-          <p className="text-lg">Protege</p>
-          <p className="pb-3 text-sm text-gray-500">React, NextJS, Firebase</p>
+          <p className="text-lg">Protegé</p>
+          <p className="pb-3 text-sm text-gray-500">
+            NextJS, TailwindCSS, Firebase
+          </p>
           <a
             className="resume-link"
             href="https://protege.dev/"
