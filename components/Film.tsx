@@ -11,7 +11,7 @@ export default function Film() {
         />
         <div className="flex flex-col flex-grow mt-6 md:pl-6 md:mt-0">
           <h2 className="text-4xl">Seth Hall : Creative Producer</h2>
-          <a
+          {/* <a
             href="https://hallpictures.us/"
             target="_blank"
             rel="noopener"
@@ -34,7 +34,7 @@ export default function Film() {
               />
             </svg>
             Watch Films
-          </a>
+          </a> */}
         </div>
       </div>
       <p className="font-serif text-base font-light lg:text-xl pb-9">
