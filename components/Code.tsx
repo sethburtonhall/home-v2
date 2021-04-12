@@ -64,8 +64,16 @@ export default function Code() {
       </div>
 
       <p className="font-serif text-base font-light lg:text-xl pb-9">
-        Frontend/Full Stack Web Developer. Always building. Always learning.
-        Currently available for work.
+        Frontend/Full Stack Web Developer. Always learning. Currently working at{' '}
+        <a
+          href="https://filmhub.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-bold border-b hover:text-blue-400"
+        >
+          FilmHub
+        </a>
+        .
       </p>
 
       <h1 className="pb-2 text-lg">Current Stack:</h1>

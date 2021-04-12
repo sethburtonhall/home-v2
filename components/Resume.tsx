@@ -34,13 +34,21 @@ export default function Resume() {
         </div>
 
         <p className="font-serif text-base font-light lg:text-lg">
-          I am a web developer working in Frontend & Full Stack environments. I
-          favor React, NextJS, Jamstack and serverless, but I am always learning
-          and can adapt to specific project requirements. As a long time remote
-          worker, I am capable of collaborating across a variety of skills and
-          teams. I possess a strong passion and dedication to coding as a
-          creative craft and vocation and I am ready to work on great projects
-          with an even greater team.
+          I am a web developer currently working at{' '}
+          <a
+            href="https://filmhub.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-pink-500"
+          >
+            FilmHub
+          </a>
+          . I favor React, NextJS, Jamstack and serverless, but I am always
+          learning and can adapt to specific project requirements. As a long
+          time remote worker, I am capable of collaborating across a variety of
+          skills and teams. I possess a strong passion and dedication to coding
+          as a creative craft and vocation.
+          {/* and I am ready to work on great projects with an even greater team. */}
         </p>
       </div>
 
@@ -403,7 +411,7 @@ export default function Resume() {
           </a>
         </div>
 
-        <div className="flex flex-col pb-6">
+        {/* <div className="flex flex-col pb-6">
           <p className="text-lg">Party Corgi Network</p>
           <p className="pb-3 text-sm text-gray-500">
             An inclusive community of content creators helping each other grow.
@@ -416,7 +424,7 @@ export default function Resume() {
           >
             Site
           </a>
-        </div>
+        </div> */}
       </div>
 
       {/* Education */}
