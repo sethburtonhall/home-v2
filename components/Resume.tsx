@@ -34,16 +34,7 @@ export default function Resume() {
         </div>
 
         <p className="font-serif text-base font-light lg:text-lg">
-          I am a web developer currently working at{' '}
-          <a
-            href="https://filmhub.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-bold text-pink-500"
-          >
-            FilmHub
-          </a>
-          . I favor React, NextJS, Jamstack and serverless, but I am always
+          I am a front end/full stack web developer. I favor React, NextJS, Jamstack and serverless, but I am always
           learning and can adapt to specific project requirements. As a long
           time remote worker, I am capable of collaborating across a variety of
           skills and teams. I possess a strong passion and dedication to coding

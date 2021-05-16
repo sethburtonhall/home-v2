@@ -1,13 +1,6 @@
 // TODO: create data for remaning resume sections
 export const experience = [
   {
-    title: 'Web Developer',
-    company: 'FilmHub - Full Time',
-    date: 'April 2021-Present | Remote',
-    description:
-      'The global marketplace for filmmakers and streaming services - open and free.',
-  },
-  {
     title: 'Frontend/Full Stack Web Developer',
     company: 'SoleLife, Inc - Contract',
     date: 'October 2020-December 2020 | Remote',
