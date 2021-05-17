@@ -64,7 +64,7 @@ export default function Code() {
       </div>
 
       <p className="font-serif text-base font-light lg:text-xl pb-9">
-        Frontend/Full Stack Web Developer. Always learning. Currently available for work.
+        Frontend/Full Stack Web Developer. Always learning. <span className="highlight">Currently available for work.</span>
       </p>
 
       <h1 className="pb-2 text-lg">Current Stack:</h1>
