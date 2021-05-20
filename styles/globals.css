@@ -58,5 +58,5 @@ p {
 }
 
 .highlight {
-  @apply bg-pink-500 px-2
+  @apply bg-pink-500 px-2 py-1 rounded
 }
