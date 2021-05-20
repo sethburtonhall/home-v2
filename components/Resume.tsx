@@ -268,6 +268,8 @@ export default function Resume() {
             <li className="pb-3">Headless CMS</li>
             <li className="pb-3">Firebase/AWS</li>
             <li className="pb-3">serverless stack</li>
+            <li className="pb-3">APIs</li>
+            <li className="pb-3">Testing</li>
             <li className="pb-3">
               static site generators (Next, Gatsby, Jekyll)
             </li>
