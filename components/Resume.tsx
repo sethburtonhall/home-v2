@@ -65,6 +65,27 @@ export default function Resume() {
         </div>
       </div>
 
+      {/* Experience */}
+      <div className="pb-8">
+        <div className="flex flex-grow">
+          <span className="text-4xl">💻 </span>
+          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+            Experience
+          </h2>
+        </div>
+
+        {experience.map((e, index) => (
+          <div key={index} className="pb-8">
+            <p className="pb-1 text-xl">{e.title}</p>
+            <p className="text-base">{e.company}</p>
+            <p className="text-sm text-gray-500">{e.date}</p>
+            <p className="pt-3 font-serif text-base font-light">
+              {e.description}
+            </p>
+          </div>
+        ))}
+      </div>
+
       {/* Projects */}
       <div className="pb-8">
         <div className="flex flex-grow">
@@ -97,21 +118,21 @@ export default function Resume() {
         </div>
 
         <div className="flex flex-col pb-8">
-          <p className="text-lg">Artist Rescue Trust</p>
+          <p className="text-lg">Movie Search</p>
           <p className="pb-3 text-sm text-gray-500">
-            Jamstack, Gatsby, DatoCMS, GraphQL, Netlify
+            React.js, TMDB API, Custom Hooks, Styled Components
           </p>
           <a
             className="resume-link"
-            href="https://artistrescue.org/"
+            href="https://react-tmdb-sbh.netlify.com/"
             target="_blank"
             rel="noopener"
           >
-            Site
+            App
           </a>
           <a
             className="resume-link"
-            href="https://github.com/OurKettle/artist-rescue-trust"
+            href="https://github.com/sethburtonhall/react-movie"
             target="_blank"
             rel="noopener"
           >
@@ -139,6 +160,44 @@ export default function Resume() {
             rel="noopener"
           >
             Source
+          </a>
+        </div>
+
+        <div className="flex flex-col pb-8">
+          <p className="text-lg">Artist Rescue Trust</p>
+          <p className="pb-3 text-sm text-gray-500">
+            Jamstack, Gatsby, DatoCMS, GraphQL, Netlify
+          </p>
+          <a
+            className="resume-link"
+            href="https://artistrescue.org/"
+            target="_blank"
+            rel="noopener"
+          >
+            Site
+          </a>
+          <a
+            className="resume-link"
+            href="https://github.com/OurKettle/artist-rescue-trust"
+            target="_blank"
+            rel="noopener"
+          >
+            Source
+          </a>
+        </div>
+
+        <div className="flex flex-col pb-8">
+          <p className="text-lg">Technology Venture Partners</p>
+          <p className="pb-3 text-sm text-gray-500">
+            Jamstack, Jekyll, CloudCannon CMS, Netlify
+          </p>
+          <a
+            className="resume-link"
+            href="https://tvp.com"
+            target="_blank"
+            rel="noopener"
+          >
+            Site
           </a>
         </div>
 
@@ -189,29 +248,6 @@ export default function Resume() {
         </div>
 
         <div className="flex flex-col pb-8">
-          <p className="text-lg">Movie Search</p>
-          <p className="pb-3 text-sm text-gray-500">
-            React.js, TMDB API, Custom Hooks, Styled Components
-          </p>
-          <a
-            className="resume-link"
-            href="https://react-tmdb-sbh.netlify.com/"
-            target="_blank"
-            rel="noopener"
-          >
-            App
-          </a>
-          <a
-            className="resume-link"
-            href="https://github.com/sethburtonhall/react-movie"
-            target="_blank"
-            rel="noopener"
-          >
-            Source
-          </a>
-        </div>
-
-        <div className="flex flex-col pb-8">
           <p className="text-lg">Old Mother Hubbard</p>
           <p className="pb-3 text-sm text-gray-500">
             HTML/CSS, Responsive Design, Foundation UI
@@ -248,27 +284,6 @@ export default function Resume() {
             Site
           </a>
         </div>
-      </div>
-
-      {/* Experience */}
-      <div className="pb-8">
-        <div className="flex flex-grow">
-          <span className="text-4xl">💻 </span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
-            Experience
-          </h2>
-        </div>
-
-        {experience.map((e, index) => (
-          <div key={index} className="pb-8">
-            <p className="pb-1 text-xl">{e.title}</p>
-            <p className="text-base">{e.company}</p>
-            <p className="text-sm text-gray-500">{e.date}</p>
-            <p className="pt-3 font-serif text-base font-light">
-              {e.description}
-            </p>
-          </div>
-        ))}
       </div>
 
       {/* Open Source */}
@@ -350,21 +365,6 @@ export default function Resume() {
             Site
           </a>
         </div>
-
-        {/* <div className="flex flex-col pb-6">
-          <p className="text-lg">Party Corgi Network</p>
-          <p className="pb-3 text-sm text-gray-500">
-            An inclusive community of content creators helping each other grow.
-          </p>
-          <a
-            className="resume-link"
-            href="https://www.partycorgi.com/"
-            target="_blank"
-            rel="noopener"
-          >
-            Site
-          </a>
-        </div> */}
       </div>
 
       {/* Education */}
