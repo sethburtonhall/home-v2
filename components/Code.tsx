@@ -19,52 +19,55 @@ export default function Code() {
           height={80}
         />
         <div className="flex flex-col flex-grow mt-6 md:pl-6 md:mt-0">
-          <h2 className="text-4xl">Seth Hall : Web Developer</h2>
-          <div
-            className="text-lg font-bold underline transition-colors ease-in-out cursor-pointer hover:text-blue-400"
-            onClick={() => setToggleContext(!toggleContext)}
-          >
-            {toggleContext === false && (
-              <svg
-                className="relative inline-block w-5 h-5 mr-1 cursor-pointer -top-0.5"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                width={20}
-                height={20}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16m-7 6h7"
-                />
-              </svg>
-            )}
-            {toggleContext === true && (
-              <svg
-                className="relative inline-block w-5 h-5 mr-1 cursor-pointer -top-0.5"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            )}
-            View Portfolio
+          <h2 className="pb-2 text-4xl">Seth Hall : Web Developer</h2>
+          <div className="flex flex-col md:flex-row">
+            <div
+              className="mb-3 text-lg font-bold underline transition-colors ease-in-out cursor-pointer md:mb-0 md:mr-6 hover:text-blue-400"
+              onClick={() => setToggleContext(!toggleContext)}
+            >
+              {toggleContext === false && (
+                <svg
+                  className="relative inline-block w-5 h-5 mr-1 cursor-pointer -top-0.5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  width={20}
+                  height={20}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h16m-7 6h7"
+                  />
+                </svg>
+              )}
+              {toggleContext === true && (
+                <svg
+                  className="relative inline-block w-5 h-5 mr-1 cursor-pointer -top-0.5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              )}
+              View Portfolio
+            </div>
+            <div className="px-2 text-lg font-bold bg-pink-500 rounded">Currently available for work</div>
           </div>
         </div>
       </div>
 
-      <p className="font-serif text-base font-light lg:text-xl pb-9">
-        Frontend/Full Stack Web Developer. Always learning. <span className="highlight">Currently available for work.</span>
+      <p className="font-serif text-base font-light pb-9 lg:text-xl">
+        I am a front end web developer with full stack experience. I have 8 years of cross-discipline collaboration with a tenacity to adapt and learn. I am a life-long creative with a dedication to process and craft.
       </p>
 
       <h1 className="pb-2 text-lg">Current Stack:</h1>
@@ -82,8 +85,9 @@ export default function Code() {
         <div className="p-1 text-gray-900 bg-orange-600 rounded">
           Serverless
         </div>
-        <div className="p-1 text-gray-900 bg-green-600 rounded">RWD</div>
+        <div className="p-1 text-gray-900 bg-green-600 rounded">APIs</div>
         <div className="p-1 text-gray-900 bg-yellow-500 rounded">Firebase</div>
+        <div className="p-1 text-gray-900 bg-indigo-400 rounded">SQL</div>
       </div>
     </>
   )

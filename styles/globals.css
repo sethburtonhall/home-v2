@@ -56,7 +56,3 @@ p {
 .resume-link {
   @apply font-serif text-sm font-bold text-purple-600 hover:text-purple-700;
 }
-
-.highlight {
-  @apply bg-pink-500 px-2 py-1 rounded
-}

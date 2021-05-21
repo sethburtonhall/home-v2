@@ -34,13 +34,35 @@ export default function Resume() {
         </div>
 
         <p className="font-serif text-base font-light lg:text-lg">
-          I am a front end/full stack web developer. I favor React, NextJS, Jamstack and serverless, but I am always
-          learning and can adapt to specific project requirements. As a long
-          time remote worker, I am capable of collaborating across a variety of
-          skills and teams. I possess a strong passion and dedication to coding
-          as a creative craft and vocation.
-          {/* and I am ready to work on great projects with an even greater team. */}
+          My name is Seth Hall and I am a front end web developer with full stack experience. I have 8 years of cross-discipline collaboration with a tenacity to adapt and learn. I am a life-long creative with a dedication to process and craft.
         </p>
+      </div>
+
+      {/* Hard Skills */}
+      <div className="pb-8">
+        <div className="flex flex-grow">
+          <span className="text-4xl">😎</span>
+          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+            Hard Skills
+          </h2>
+        </div>
+
+        <div className="font-serif text-base font-light">
+          <ul className="pl-5 list-disc list-outside">
+            <li className="pb-3">
+              Front End: HTML/CSS/JS, React, NextJS, APIs, testing, performance, accessibility
+            </li>
+            <li className="pb-3">
+              Styling: TailwindCSS, CSS in JS, Material UI, Bootstrap, Chakra UI
+            </li>
+            <li className="pb-3">
+              Serverless/Database: JAMstack, Headless CMS, Firebase/AWS, GraphQL, SQL
+            </li>
+            <li className="pb-3">
+              Team Collaboration: Agile Development, Jira, Slack, VS Code, Git/Github, Figma, Adobe XD, Retool
+            </li>
+          </ul>
+        </div>
       </div>
 
       {/* Projects */}
@@ -249,81 +271,6 @@ export default function Resume() {
         ))}
       </div>
 
-      {/* Hard Skills */}
-      <div className="pb-8">
-        <div className="flex flex-grow">
-          <span className="text-4xl">😎</span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
-            Hard Skills
-          </h2>
-        </div>
-
-        <div className="font-serif text-base font-light">
-          <ul className="pl-5 list-disc list-outside">
-            <li className="pb-3">HTML/CSS/JS</li>
-            <li className="pb-3">TailwindCSS</li>
-            <li className="pb-3">React</li>
-            <li className="pb-3">NextJS</li>
-            <li className="pb-3">Jamstack</li>
-            <li className="pb-3">Headless CMS</li>
-            <li className="pb-3">Firebase/AWS</li>
-            <li className="pb-3">serverless stack</li>
-            <li className="pb-3">APIs</li>
-            <li className="pb-3">Testing</li>
-            <li className="pb-3">
-              static site generators (Next, Gatsby, Jekyll)
-            </li>
-            <li className="pb-3">DatoCMS, CraftCMS, CloudCannon</li>
-            <li className="pb-3">
-              styled components, styled system, Sass, PostCSS, etc..
-            </li>
-            <li className="pb-3">html templating (Handlebars, Twig, etc...)</li>
-            <li className="pb-3">
-              CSS frameworks (Material UI, Bootstrap, Chakra UI, Foundation,
-              etc...)
-            </li>
-            <li className="pb-3">git version control (Github, BitBucket)</li>
-            <li className="pb-3">responsive design web</li>
-            <li className="pb-3">performance and accessibility</li>
-            <li className="pb-3">terminal/command line</li>
-          </ul>
-        </div>
-      </div>
-
-      {/* Soft Skills */}
-      <div className="pb-8">
-        <div className="flex flex-grow">
-          <span className="text-4xl">🙂</span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
-            Soft Skills
-          </h2>
-        </div>
-
-        <div className="font-serif text-base font-light">
-          <ul className="pl-5 list-disc list-outside">
-            <li className="pb-3">
-              remote working - I am skilled in communicating across multiple
-              time zones with multiple types of positions and personalities. In
-              an autonomous environment I am great at time management and
-              meeting deadlines.
-            </li>
-            <li className="pb-3">experience in Agile development</li>
-            <li className="pb-3">honest and thoughtful communication</li>
-            <li className="pb-3">
-              excellent written and verbal communication skills
-            </li>
-            <li className="pb-3">listening and validating others</li>
-            <li className="pb-3">positive and encouraging personality</li>
-            <li className="pb-3">friendly and laid back demeanor</li>
-            <li className="pb-3">a good sense of humor</li>
-            <li className="pb-3">
-              a deep understanding of the development process and the efficiency
-              needed to see it through from start to finish
-            </li>
-          </ul>
-        </div>
-      </div>
-
       {/* Open Source */}
       <div className="pb-8">
         <div className="flex flex-grow">
@@ -371,7 +318,7 @@ export default function Resume() {
         <p className="pb-6 text-base font-light">
           I am involved in some amazing online communities that are super
           supportive and essential to my growth as a person and developer,
-          especially during this global pandemic.
+          especially during the global pandemic.
         </p>
         <div className="flex flex-col pb-6">
           <p className="text-lg">VirtualCoffee.io</p>
