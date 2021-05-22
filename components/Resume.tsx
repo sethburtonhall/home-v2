@@ -38,12 +38,12 @@ export default function Resume() {
         </p>
       </div>
 
-      {/* Hard Skills */}
+      {/* Technical Skills */}
       <div className="pb-8">
         <div className="flex flex-grow">
           <span className="text-4xl">😎</span>
           <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
-            Hard Skills
+            Technical Skills
           </h2>
         </div>
 
