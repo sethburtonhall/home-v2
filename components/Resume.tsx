@@ -50,7 +50,7 @@ export default function Resume() {
         <div className="font-serif text-base font-light">
           <ul className="pl-5 list-disc list-outside">
             <li className="pb-3">
-              Front End: HTML/CSS/JS, React, NextJS, APIs, testing, performance, accessibility
+              Front End: HTML/CSS/JS, React/Next, Vue/Nuxt, APIs, testing, performance, accessibility
             </li>
             <li className="pb-3">
               Styling: TailwindCSS, CSS in JS, Material UI, Bootstrap, Chakra UI

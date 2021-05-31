@@ -77,17 +77,17 @@ export default function Code() {
         <div className="p-1 text-gray-900 bg-yellow-400 rounded">
           Javascript
         </div>
-        <div className="p-1 text-gray-900 rounded bg-cyan-400">React</div>
-        <div className="p-1 bg-black rounded">Next.js</div>
+        <div className="p-1 text-gray-900 rounded bg-cyan-400">React/Next</div>
+        <div className="p-1 text-gray-900 bg-green-500 rounded">Vue/Nuxt</div>
         <div className="p-1 text-gray-900 rounded bg-cyan-600">Tailwind</div>
         <div className="p-1 bg-pink-600 rounded">Jamstack</div>
         <div className="p-1 text-gray-900 bg-white rounded">CMS</div>
         <div className="p-1 text-gray-900 bg-orange-600 rounded">
           Serverless
         </div>
-        <div className="p-1 text-gray-900 bg-green-600 rounded">APIs</div>
+        <div className="p-1 text-gray-900 bg-indigo-600 rounded">APIs</div>
         <div className="p-1 text-gray-900 bg-yellow-500 rounded">Firebase</div>
-        <div className="p-1 text-gray-900 bg-indigo-400 rounded">SQL</div>
+        <div className="p-1 text-white bg-black rounded">SQL</div>
       </div>
     </>
   )
