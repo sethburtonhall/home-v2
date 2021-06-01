@@ -78,7 +78,7 @@ export default function Code() {
           Javascript
         </div>
         <div className="p-1 text-gray-900 rounded bg-cyan-400">React/Next</div>
-        <div className="p-1 text-gray-900 bg-green-500 rounded">Vue/Nuxt</div>
+        <div className="p-1 text-gray-900 bg-green-500 rounded">Vue</div>
         <div className="p-1 text-gray-900 rounded bg-cyan-600">Tailwind</div>
         <div className="p-1 bg-pink-600 rounded">Jamstack</div>
         <div className="p-1 text-gray-900 bg-white rounded">CMS</div>
