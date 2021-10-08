@@ -34,7 +34,7 @@ export default function Resume() {
         </div>
 
         <p className="font-serif text-base font-light lg:text-lg">
-          My name is Seth Hall and I am a front end web developer with full stack experience. I have 8 years of cross-discipline collaboration with a tenacity to adapt and learn. I am a life-long creative with a dedication to process and craft.
+          My name is Seth Hall and I am a front end web developer with over 8 years of cross-discipline collaboration and a tenacity to adapt and learn. I am a life-long creative with a dedication to process and craft.
         </p>
       </div>
 
@@ -50,7 +50,7 @@ export default function Resume() {
         <div className="font-serif text-base font-light">
           <ul className="pl-5 list-disc list-outside">
             <li className="pb-3">
-              Front End: HTML/CSS/JS, React/Next, Vue, APIs, testing, performance, accessibility
+              Front End: HTML/CSS/JS, React/Next, Vue, Typescript, APIs, testing, performance, accessibility
             </li>
             <li className="pb-3">
               Styling: TailwindCSS, CSS in JS, Material UI, Bootstrap, Chakra UI

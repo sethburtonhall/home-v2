@@ -61,13 +61,13 @@ export default function Code() {
               )}
               View Portfolio
             </div>
-            <div className="px-2 text-lg font-bold bg-pink-500 rounded">Currently available for work</div>
+            {/* <div className="px-2 text-lg font-bold bg-pink-500 rounded">Currently available for work</div> */}
           </div>
         </div>
       </div>
 
       <p className="font-serif text-base font-light pb-9 lg:text-xl">
-        I am a front end web developer with full stack experience. I have 8 years of cross-discipline collaboration with a tenacity to adapt and learn. I am a life-long creative with a dedication to process and craft.
+        I am a front end web developer with over 8 years of cross-discipline collaboration and a tenacity to adapt and learn. I am a life-long creative with a dedication to process and craft.
       </p>
 
       <h1 className="pb-2 text-lg">Current Stack:</h1>

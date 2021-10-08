@@ -1,6 +1,13 @@
 // TODO: create data for remaning resume sections
 export const experience = [
   {
+    title: 'Frontend Web Developer',
+    company: 'Saturation.io - Full Time',
+    date: 'June 2021-Present | Remote',
+    description:
+      'Saturation.io is building the future of filmmaking through a suite of production apps. As a part of the dev team, I am helping to build Greenbudget, our flagship React/Typescript app.',
+  },
+  {
     title: 'Frontend/Full Stack Web Developer',
     company: 'SoleLife, Inc - Contract',
     date: 'October 2020-December 2020 | Remote',
