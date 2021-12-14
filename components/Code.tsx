@@ -1,5 +1,6 @@
 import { useEffect, useContext } from 'react'
 import { SideBarContext } from '../contexts/SideBarContext'
+import { bio } from '../data/data'
 
 export default function Code() {
   const [toggleContext, setToggleContext] = useContext(SideBarContext)
@@ -67,7 +68,7 @@ export default function Code() {
       </div>
 
       <p className="font-serif text-base font-light pb-9 lg:text-xl">
-        I am a front end web developer with over 8 years of cross-discipline collaboration and a tenacity to adapt and learn. I am a life-long creative with a dedication to process and craft.
+        {bio}
       </p>
 
       <h1 className="pb-2 text-lg">Current Stack:</h1>
@@ -76,6 +77,9 @@ export default function Code() {
         <div className="p-1 bg-blue-700 rounded">CSS</div>
         <div className="p-1 text-gray-900 bg-yellow-400 rounded">
           Javascript
+        </div>
+        <div className="p-1 text-gray-900 bg-blue-500 rounded">
+          Typescript
         </div>
         <div className="p-1 text-gray-900 rounded bg-cyan-400">React/Next</div>
         <div className="p-1 text-gray-900 bg-green-500 rounded">Vue</div>

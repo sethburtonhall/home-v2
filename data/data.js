@@ -1,4 +1,7 @@
 // TODO: create data for remaning resume sections
+export const bio =
+  'My name is Seth Hall and I am a front end web developer with over 9 years of cross-discipline collaboration and a tenacity to adapt and learn. I am a life-long creative with a dedication to process and craft.'
+
 export const experience = [
   {
     title: 'Frontend Web Developer',

@@ -1,7 +1,7 @@
 import { data } from 'autoprefixer'
 import { useContext } from 'react'
 import { SideBarContext } from '../contexts/SideBarContext'
-import { experience } from '../data/data'
+import { experience, bio } from '../data/data'
 
 export default function Resume() {
   const [toggleContext, setToggleContext] = useContext(SideBarContext)
@@ -34,7 +34,7 @@ export default function Resume() {
         </div>
 
         <p className="font-serif text-base font-light lg:text-lg">
-          My name is Seth Hall and I am a front end web developer with over 8 years of cross-discipline collaboration and a tenacity to adapt and learn. I am a life-long creative with a dedication to process and craft.
+          {bio}
         </p>
       </div>
 
