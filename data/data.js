@@ -5,7 +5,7 @@ export const bio =
 export const experience = [
   {
     title: 'Frontend Web Developer',
-    company: 'Saturation.io - Full Time',
+    company: 'Saturation.io - Contract',
     date: 'June 2021-February 2022 | Remote',
     description:
       'Saturation.io is building the future of filmmaking through a suite of production apps. As a part of the dev team, I am helping to build Greenbudget, our flagship React/Typescript app.',
