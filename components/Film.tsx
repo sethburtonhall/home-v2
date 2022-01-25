@@ -5,11 +5,11 @@ export default function Film() {
         <img
           src="/seth-film.jpg"
           alt="Seth Hall"
-          className="w-20 h-20 rounded-full"
+          className="h-20 w-20 rounded-full"
           width={80}
           height={80}
         />
-        <div className="flex flex-col flex-grow mt-6 md:pl-6 md:mt-0">
+        <div className="mt-6 flex flex-grow flex-col md:mt-0 md:pl-6">
           <h2 className="text-4xl">Seth Hall : Creative Producer</h2>
           {/* <a
             href="https://hallpictures.us/"
@@ -37,7 +37,7 @@ export default function Film() {
           </a> */}
         </div>
       </div>
-      <p className="font-serif text-base font-light lg:text-xl pb-9">
+      <p className="pb-9 font-serif text-base font-light lg:text-xl">
         I also have a MFA in Creative Producing from UNC School of the Arts. My
         company specializes in the development and production of shorts,
         features, and series. We are truly independent, doing our best to

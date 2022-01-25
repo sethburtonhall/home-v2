@@ -46,14 +46,14 @@ export default function Home() {
       >
         {/* main content */}
         <div
-          className="relative flex flex-col min-h-screen px-5 pt-5 md:container lg:px-0"
+          className="relative flex min-h-screen flex-col px-5 pt-5 md:container lg:px-0"
           onClick={handleOutsideClick}
         >
-          <header className="flex items-center justify-end w-full">
+          <header className="flex w-full items-center justify-end">
             <div className="cursor-pointer">
               {context === 'code' && (
                 <svg
-                  className="w-10 ml-auto text-white transition hover:text-pink-500"
+                  className="ml-auto w-10 text-white transition hover:text-pink-500"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -72,7 +72,7 @@ export default function Home() {
               )}
               {context === 'film' && (
                 <svg
-                  className="w-10 ml-auto text-white transition hover:text-pink-500"
+                  className="ml-auto w-10 text-white transition hover:text-pink-500"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -92,14 +92,14 @@ export default function Home() {
             </div>
           </header>
 
-          <main className={`flex flex-col justify-start flex-grow md:mt-32`}>
+          <main className={`flex flex-grow flex-col justify-start md:mt-32`}>
             {context === 'film' ? (
-              <motion.div className="flex flex-col this-is-film">
+              <motion.div className="this-is-film flex flex-col">
                 <Film />
               </motion.div>
             ) : (
               <motion.div
-                className="flex flex-col this-is-code"
+                className="this-is-code flex flex-col"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
               >
@@ -108,7 +108,7 @@ export default function Home() {
             )}
           </main>
 
-          <footer className="flex flex-col items-center justify-between w-full py-6 md:flex-row">
+          <footer className="flex w-full flex-col items-center justify-between py-6 md:flex-row">
             <SocialIcons />
             <MadeWith />
           </footer>
@@ -116,7 +116,7 @@ export default function Home() {
 
         {/* Resume */}
         <motion.div
-          className="fixed top-0 w-full h-screen p-6 pt-3 overflow-y-scroll scroller lg:w-1/2 bg-gradient-to-tr from-gray-800 to-gray-900"
+          className="scroller fixed top-0 h-screen w-full overflow-y-scroll bg-gradient-to-tr from-gray-800 to-gray-900 p-6 pt-3 lg:w-1/2"
           initial={{ x: -1000 }}
           animate={{
             x: toggleContext ? 0 : -1000,

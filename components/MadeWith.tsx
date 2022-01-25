@@ -6,7 +6,7 @@ export default function MadeWith() {
           href="https://github.com/sethburtonhall/home-v2"
           target="_blank"
           rel="noopener"
-          className="pt-1 mr-1 social-icon"
+          className="social-icon mr-1 pt-1"
         >
           v2.0
         </a>
@@ -17,7 +17,7 @@ export default function MadeWith() {
           href="https://nextjs.org/"
           target="_blank"
           rel="noopener"
-          className="px-2 pt-1 pb-1 ml-2 mr-2 bg-black rounded"
+          className="ml-2 mr-2 rounded bg-black px-2 pt-1 pb-1"
         >
           Next.js
         </a>{' '}
@@ -26,7 +26,7 @@ export default function MadeWith() {
           href="https://tailwindcss.com/"
           target="_blank"
           rel="noopener"
-          className="px-2 pt-1 pb-1 ml-3 text-gray-900 rounded bg-cyan-600"
+          className="ml-3 rounded bg-cyan-600 px-2 pt-1 pb-1 text-gray-900"
         >
           TailwindCSS
         </a>

@@ -1,7 +1,7 @@
 // all icons are https://heroicons.com/ except https://remixicon.com/ for LinkedIn
 export default function SocialIcons() {
   return (
-    <div className="flex items-center justify-around w-full mb-6 lg:justify-between sm:w-1/2 md:w-1/3 lg:w-1/4 md:mb-0">
+    <div className="mb-6 flex w-full items-center justify-around sm:w-1/2 md:mb-0 md:w-1/3 lg:w-1/4 lg:justify-between">
       <a
         href="https://github.com/sethburtonhall"
         target="_blank"
@@ -11,7 +11,7 @@ export default function SocialIcons() {
       >
         <span className="sr-only">GitHub</span>
         <svg
-          className="w-6 h-6"
+          className="h-6 w-6"
           fill="currentColor"
           viewBox="0 0 24 24"
           width={25}
@@ -33,7 +33,7 @@ export default function SocialIcons() {
       >
         <span className="sr-only">Twitter</span>
         <svg
-          className="w-6 h-6"
+          className="h-6 w-6"
           fill="currentColor"
           viewBox="0 0 24 24"
           width={25}
@@ -46,7 +46,7 @@ export default function SocialIcons() {
         href="https://dev.to/sethburtonhall"
         target="_blank"
         rel="noopener"
-        className="flex items-center h-6 pl-1 text-xs border-2 rounded w-9 social-icon hover:border-pink-500"
+        className="social-icon flex h-6 w-9 items-center rounded border-2 pl-1 text-xs hover:border-pink-500"
         title="Dev.to"
       >
         DEV
@@ -60,7 +60,7 @@ export default function SocialIcons() {
       >
         <span className="sr-only">Instagram</span>
         <svg
-          className="w-6 h-6"
+          className="h-6 w-6"
           fill="currentColor"
           viewBox="0 0 24 24"
           width={25}
@@ -82,7 +82,7 @@ export default function SocialIcons() {
       >
         <span className="sr-only">LinkedIn</span>
         <svg
-          className="w-6 h-6"
+          className="h-6 w-6"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
           viewBox="0 0 24 24"
@@ -101,7 +101,7 @@ export default function SocialIcons() {
       >
         <span className="sr-only">Email</span>
         <svg
-          className="w-6 h-6"
+          className="h-6 w-6"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"

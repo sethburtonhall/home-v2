@@ -9,7 +9,7 @@ export default function Resume() {
   return (
     <>
       <svg
-        className="w-10 ml-auto cursor-pointer"
+        className="ml-auto w-10 cursor-pointer"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
@@ -27,39 +27,40 @@ export default function Resume() {
       {/* Introduction */}
       <div className="pb-8">
         <div className="flex">
-          <h2 className="pb-3 pr-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+          <h2 className="bg-gradient-to-r from-purple-700 to-pink-700 bg-clip-text pb-3 pr-3 text-4xl text-transparent">
             Hello
           </h2>
           <span className="flex-grow text-4xl">👋🏼 😀 </span>
         </div>
 
-        <p className="font-serif text-base font-light lg:text-lg">
-          {bio}
-        </p>
+        <p className="font-serif text-base font-light lg:text-lg">{bio}</p>
       </div>
 
       {/* Technical Skills */}
       <div className="pb-8">
         <div className="flex flex-grow">
           <span className="text-4xl">😎</span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+          <h2 className="bg-gradient-to-r from-purple-700 to-pink-700 bg-clip-text pb-3 pl-3 text-4xl text-transparent">
             Technical Skills
           </h2>
         </div>
 
         <div className="font-serif text-base font-light">
-          <ul className="pl-5 list-disc list-outside">
+          <ul className="list-outside list-disc pl-5">
             <li className="pb-3">
-              Front End: HTML/CSS/JS, React/Next, Vue, Typescript, APIs, testing, performance, accessibility
+              Front End: HTML/CSS/JS, React/Next, Vue, Typescript, APIs,
+              testing, performance, accessibility
             </li>
             <li className="pb-3">
               Styling: TailwindCSS, CSS in JS, Material UI, Bootstrap, Chakra UI
             </li>
             <li className="pb-3">
-              Serverless/Database: JAMstack, Headless CMS, Firebase/AWS, GraphQL, SQL
+              Serverless/Database: JAMstack, Headless CMS, Firebase/AWS,
+              GraphQL, SQL
             </li>
             <li className="pb-3">
-              Team Collaboration: Agile Development, Jira, Slack, VS Code, Git/Github, Figma, Adobe XD, Retool
+              Team Collaboration: Agile Development, Jira, Slack, VS Code,
+              Git/Github, Figma, Adobe XD, Retool
             </li>
           </ul>
         </div>
@@ -69,7 +70,7 @@ export default function Resume() {
       <div className="pb-8">
         <div className="flex flex-grow">
           <span className="text-4xl">💻 </span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+          <h2 className="bg-gradient-to-r from-purple-700 to-pink-700 bg-clip-text pb-3 pl-3 text-4xl text-transparent">
             Experience
           </h2>
         </div>
@@ -90,7 +91,7 @@ export default function Resume() {
       <div className="pb-8">
         <div className="flex flex-grow">
           <span className="text-4xl">⚙️</span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+          <h2 className="bg-gradient-to-r from-purple-700 to-pink-700 bg-clip-text pb-3 pl-3 text-4xl text-transparent">
             Projects
           </h2>
         </div>
@@ -290,7 +291,7 @@ export default function Resume() {
       <div className="pb-8">
         <div className="flex flex-grow">
           <span className="text-4xl">⌨️</span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+          <h2 className="bg-gradient-to-r from-purple-700 to-pink-700 bg-clip-text pb-3 pl-3 text-4xl text-transparent">
             Open Source
           </h2>
         </div>
@@ -326,7 +327,7 @@ export default function Resume() {
       <div className="pb-8">
         <div className="flex flex-grow">
           <span className="text-4xl">❤️</span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+          <h2 className="bg-gradient-to-r from-purple-700 to-pink-700 bg-clip-text pb-3 pl-3 text-4xl text-transparent">
             Communities
           </h2>
         </div>
@@ -371,7 +372,7 @@ export default function Resume() {
       <div className="pb-8">
         <div className="flex flex-grow">
           <span className="text-4xl">📚</span>
-          <h2 className="pb-3 pl-3 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-purple-700 to-pink-700">
+          <h2 className="bg-gradient-to-r from-purple-700 to-pink-700 bg-clip-text pb-3 pl-3 text-4xl text-transparent">
             Education
           </h2>
         </div>
