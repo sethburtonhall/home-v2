@@ -37,7 +37,7 @@ export default function Film() {
           </a> */}
         </div>
       </div>
-      <p className="pb-9 font-serif text-base font-light lg:text-xl">
+      <p className="pb-5 font-serif text-base font-light lg:text-xl">
         I also have a MFA in Creative Producing from UNC School of the Arts. My
         company specializes in the development and production of shorts,
         features, and series. We are truly independent, doing our best to
@@ -46,7 +46,7 @@ export default function Film() {
         that I have made over the years.
       </p>
 
-      <div className="aspect-w-16 aspect-h-9 mb-4 md:mb-1">
+      <div className="aspect-w-16 aspect-h-9 mb-4 md:mb-2 lg:mb-0">
         <iframe
           src="https://player.vimeo.com/video/327592520?h=ddb0daaf5b"
           width="100%"
