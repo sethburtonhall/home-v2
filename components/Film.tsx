@@ -42,8 +42,54 @@ export default function Film() {
         company specializes in the development and production of shorts,
         features, and series. We are truly independent, doing our best to
         develop great stories and produce high-quality content while providing a
-        safe and nurturing environment for film creatives.
+        safe and nurturing environment for film creatives. Here are a few films
+        that I have made over the years.
       </p>
+
+      <div className="aspect-w-16 aspect-h-9 mb-4 md:mb-1">
+        <iframe
+          src="https://player.vimeo.com/video/327592520?h=ddb0daaf5b"
+          width="100%"
+          height="320px"
+          frameBorder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-9">
+        <div className="aspect-w-16 aspect-h-9 mb-8">
+          <iframe
+            src="https://player.vimeo.com/video/284174147?h=5a7658c8e8"
+            width="100%"
+            height="360px"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className="aspect-w-16 aspect-h-9 mb-9">
+          <iframe
+            src="https://player.vimeo.com/video/19543175?h=e44b27a168"
+            width="100%"
+            height="360px"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+
+      <div className="aspect-w-16 aspect-h-9 mb-9">
+        <iframe
+          src="https://player.vimeo.com/video/13341963?h=d524a5f061"
+          width="100%"
+          height="360px"
+          frameBorder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
     </>
   )
 }
