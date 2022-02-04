@@ -37,6 +37,8 @@ module.exports = {
       orange: colors.orange,
       green: colors.emerald,
       red: colors.red,
+      zinc: colors.zinc,
+      fuschia: colors.fuschia,
     },
     // fill: theme => theme(colors),
     extend: {

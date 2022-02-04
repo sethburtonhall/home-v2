@@ -77,6 +77,13 @@ export default function Code() {
           Javascript
         </div>
         <div className="rounded bg-blue-500 p-1 text-gray-900">Typescript</div>
+        <div className="rounded bg-gray-800 p-1 text-gray-900">
+          <span className="px-1 text-blue-700">R</span>
+          <span className="px-1 text-green-600">E</span>
+          <span className="px-1 text-yellow-400">M</span>
+          <span className="px-1 text-pink-600">I</span>
+          <span className="px-1 text-red-500">X</span>
+        </div>
         <div className="rounded bg-cyan-400 p-1 text-gray-900">React/Next</div>
         <div className="rounded bg-green-500 p-1 text-gray-900">Vue</div>
         <div className="rounded bg-cyan-600 p-1 text-gray-900">Tailwind</div>
