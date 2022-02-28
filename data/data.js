@@ -1,8 +1,15 @@
 // TODO: create data for remaning resume sections
 export const bio =
-  'My name is Seth Hall and I am a front end web developer with over 9 years of cross-discipline collaboration and a tenacity to adapt and learn. I am a life-long creative with a dedication to process and craft.'
+  'Hello, my name is Seth Hall. I am a Demo Engineer at Uniform. When I am not coding I am usually embarking on epic adventures with my wife and kids. Check out my resume to see what I have been up to and connect with me on social media.'
 
 export const experience = [
+  {
+    title: 'Demo Engineer',
+    company: 'Uniform - Full-Time',
+    date: 'March 2022-Present | Remote',
+    description:
+      "The next generation DXP that gives you the power of choice. Uniform's digital orchestration turns headless and legacy tools into a seamless end-to-end digital delivery pipeline.",
+  },
   {
     title: 'Frontend Web Developer',
     company: 'Saturation.io - Contract',

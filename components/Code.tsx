@@ -20,7 +20,7 @@ export default function Code() {
           height={80}
         />
         <div className="mt-6 flex flex-grow flex-col md:mt-0 md:pl-6">
-          <h2 className="pb-2 text-4xl">Seth Hall : Web Developer</h2>
+          <h2 className="pb-2 text-4xl">Seth Hall</h2>
           <div className="flex flex-col md:flex-row">
             <div
               className="mb-3 cursor-pointer text-lg font-bold underline transition-colors ease-in-out hover:text-blue-400 md:mb-0 md:mr-6"
